@@ -1,0 +1,191 @@
+﻿=== DATABASE TABLES ===
+
+amc_master:
+  amc_id: integer (NOT NULL)
+  amc_name: character varying (NOT NULL)
+  short_code: character varying (NULL)
+  created_at: timestamp without time zone (NULL)
+
+axis_portfolio_holdings:
+  scheme_name: text (NULL)
+  report_date: date (NULL)
+  isin: text (NULL)
+  instrument_name: text (NULL)
+  industry: text (NULL)
+  quantity: double precision (NULL)
+  market_value_lakhs: double precision (NULL)
+  pct_net_assets: bigint (NULL)
+  ytm: text (NULL)
+  ytc: double precision (NULL)
+
+benchmark_master:
+  benchmark_id: integer (NOT NULL)
+  name: character varying (NULL)
+  provider: character varying (NULL)
+
+fund_holding_activity:
+  activity_id: bigint (NOT NULL)
+  fund_id: integer (NOT NULL)
+  isin: character varying (NOT NULL)
+  prev_report_date: date (NULL)
+  curr_report_date: date (NOT NULL)
+  prev_quantity: numeric (NULL)
+  curr_quantity: numeric (NULL)
+  delta_quantity: numeric (NULL)
+  prev_pct_aum: numeric (NULL)
+  curr_pct_aum: numeric (NULL)
+  delta_pct_aum: numeric (NULL)
+  activity_type: character varying (NULL)
+  abs_turnover_pct: numeric (NULL)
+  source_import_id: bigint (NULL)
+  created_at: timestamp without time zone (NULL)
+
+fund_manager_history:
+  history_id: integer (NOT NULL)
+  fund_id: integer (NULL)
+  manager_name: character varying (NULL)
+  start_date: date (NULL)
+  end_date: date (NULL)
+  is_primary: boolean (NULL)
+
+fund_manager_mapping:
+  mapping_id: integer (NOT NULL)
+  fund_id: integer (NULL)
+  manager_id: integer (NULL)
+  start_date: date (NOT NULL)
+  end_date: date (NULL)
+
+fund_manager_master:
+  manager_id: integer (NOT NULL)
+  full_name: character varying (NOT NULL)
+  start_date_industry: date (NULL)
+
+fund_master:
+  fund_id: integer (NOT NULL)
+  amc_id: integer (NULL)
+  scheme_name: character varying (NOT NULL)
+  scheme_category: character varying (NULL)
+  benchmark_index: character varying (NULL)
+  is_active: boolean (NULL)
+  created_at: timestamp without time zone (NULL)
+
+fund_monthly_metrics:
+  metric_id: bigint (NOT NULL)
+  fund_id: integer (NULL)
+  report_date: date (NOT NULL)
+  nav: numeric (NULL)
+  aum_crores: numeric (NULL)
+  expense_ratio: numeric (NULL)
+  turnover_ratio: numeric (NULL)
+  cash_holding_pct: numeric (NULL)
+
+fund_return_yearly:
+  id: bigint (NOT NULL)
+  fund_id: integer (NULL)
+  scheme_code: character varying (NULL)
+  period_label: character varying (NOT NULL)
+  return_pct: numeric (NULL)
+  as_of_date: date (NULL)
+  source: character varying (NULL)
+  created_at: timestamp with time zone (NULL)
+
+fund_sector_exposure:
+  exposure_id: bigint (NOT NULL)
+  fund_id: integer (NULL)
+  report_date: date (NOT NULL)
+  sector_name: character varying (NULL)
+  allocation_pct: numeric (NULL)
+
+fund_style_exposure_monthly:
+  fund_id: integer (NOT NULL)
+  report_date: date (NOT NULL)
+  equity_pct: numeric (NULL)
+  large_cap_pct: numeric (NULL)
+  mid_cap_pct: numeric (NULL)
+  small_cap_pct: numeric (NULL)
+  micro_cap_pct: numeric (NULL)
+  cash_pct: numeric (NULL)
+  sector_json: jsonb (NULL)
+  created_at: timestamp without time zone (NULL)
+
+motilal_portfolio_staging:
+  staging_id: bigint (NOT NULL)
+  scheme_name: character varying (NULL)
+  report_date: date (NULL)
+  security_name: character varying (NULL)
+  isin: character varying (NULL)
+  rating_industry: character varying (NULL)
+  quantity: numeric (NULL)
+  market_value_lakhs: numeric (NULL)
+  pct_portfolio: numeric (NULL)
+  uploaded_at: timestamp without time zone (NULL)
+
+portfolio_holdings:
+  holding_id: bigint (NOT NULL)
+  fund_id: integer (NULL)
+  security_id: bigint (NULL)
+  report_date: date (NOT NULL)
+  quantity: numeric (NULL)
+  market_value_lakhs: numeric (NULL)
+  pct_portfolio: numeric (NULL)
+  sector_at_time: character varying (NULL)
+  rating_at_time: character varying (NULL)
+  created_at: timestamp without time zone (NULL)
+
+security_attribute_history:
+  history_id: bigint (NOT NULL)
+  isin: character varying (NULL)
+  valid_from: date (NOT NULL)
+  valid_to: date (NULL)
+  rating: character varying (NULL)
+  industry: character varying (NULL)
+  macro_sector: character varying (NULL)
+
+security_market_cap_history:
+  id: bigint (NOT NULL)
+  isin: character varying (NOT NULL)
+  report_date: date (NOT NULL)
+  market_cap_crores: numeric (NULL)
+  cap_bucket: character varying (NULL)
+  created_at: timestamp without time zone (NULL)
+
+security_master:
+  security_id: bigint (NOT NULL)
+  isin: character varying (NOT NULL)
+  ticker_symbol: character varying (NULL)
+  security_name: character varying (NULL)
+  asset_class: character varying (NULL)
+  current_sector: character varying (NULL)
+  current_industry: character varying (NULL)
+  updated_at: timestamp without time zone (NULL)
+
+staging_amfi_fund_performance:
+  scheme_code: text (NULL)
+  scheme_name: text (NULL)
+  category: text (NULL)
+  asset_class: text (NULL)
+  benchmark_name: text (NULL)
+
+staging_portfolio_upload:
+  staging_id: bigint (NOT NULL)
+  amc_code_raw: character varying (NULL)
+  scheme_name_raw: character varying (NULL)
+  isin_raw: character varying (NULL)
+  security_name_raw: character varying (NULL)
+  sector_raw: character varying (NULL)
+  quantity_raw: text (NULL)
+  market_value_raw: text (NULL)
+  pct_aum_raw: text (NULL)
+  report_date: date (NULL)
+  uploaded_at: timestamp without time zone (NULL)
+  is_processed: boolean (NULL)
+
+vw_fund_monthly_holdings:
+  scheme_name: character varying (NULL)
+  report_date: date (NULL)
+  isin: character varying (NULL)
+  security_name: character varying (NULL)
+  current_industry: character varying (NULL)
+  quantity: numeric (NULL)
+  market_value_lakhs: numeric (NULL)
+  pct_portfolio: numeric (NULL)

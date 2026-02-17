@@ -1,6 +1,0 @@
-﻿=== Looking for SBIRIOS equity section ===
-Row 8: EQUITY & EQUITY RELATED
-Row 9: a) Listed/awaiting listing on Stock Exchanges
-Row 49: a) Listed/awaiting listing on the stock exchanges
-
-=== All rows with Swiggy, Maruti, H.G. Infra, or Canara Robeco ===
