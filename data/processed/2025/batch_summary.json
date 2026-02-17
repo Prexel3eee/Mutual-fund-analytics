@@ -1,0 +1,105 @@
+{
+  "batch_date": "2026-02-17T14:18:35.048527",
+  "input_directory": "2025",
+  "files_processed": 12,
+  "success_count": 12,
+  "error_count": 0,
+  "results": [
+    {
+      "file": "April.xlsx",
+      "status": "success",
+      "output": "data\\processed\\2025\\sbi_equity_holdings_202504.json",
+      "schemes": 64,
+      "securities": 505,
+      "holdings": 2530
+    },
+    {
+      "file": "August.xlsx",
+      "status": "success",
+      "output": "data\\processed\\2025\\sbi_equity_holdings_202508.json",
+      "schemes": 67,
+      "securities": 510,
+      "holdings": 2734
+    },
+    {
+      "file": "December.xlsx",
+      "status": "success",
+      "output": "data\\processed\\2025\\sbi_equity_holdings_202512.json",
+      "schemes": 67,
+      "securities": 457,
+      "holdings": 2556
+    },
+    {
+      "file": "February.xlsx",
+      "status": "success",
+      "output": "data\\processed\\2025\\sbi_equity_holdings_202302.json",
+      "schemes": 58,
+      "securities": 511,
+      "holdings": 2313
+    },
+    {
+      "file": "January.xlsx",
+      "status": "success",
+      "output": "data\\processed\\2025\\sbi_equity_holdings_202501.json",
+      "schemes": 60,
+      "securities": 483,
+      "holdings": 2530
+    },
+    {
+      "file": "July.xlsx",
+      "status": "success",
+      "output": "data\\processed\\2025\\sbi_equity_holdings_202507.json",
+      "schemes": 67,
+      "securities": 510,
+      "holdings": 2720
+    },
+    {
+      "file": "June.xlsx",
+      "status": "success",
+      "output": "data\\processed\\2025\\sbi_equity_holdings_202506.json",
+      "schemes": 64,
+      "securities": 486,
+      "holdings": 2531
+    },
+    {
+      "file": "March.xlsx",
+      "status": "success",
+      "output": "data\\processed\\2025\\sbi_equity_holdings_202503.json",
+      "schemes": 63,
+      "securities": 507,
+      "holdings": 2517
+    },
+    {
+      "file": "May.xlsx",
+      "status": "success",
+      "output": "data\\processed\\2025\\sbi_equity_holdings_202505.json",
+      "schemes": 63,
+      "securities": 512,
+      "holdings": 2462
+    },
+    {
+      "file": "November.xlsx",
+      "status": "success",
+      "output": "data\\processed\\2025\\sbi_equity_holdings_202511.json",
+      "schemes": 67,
+      "securities": 452,
+      "holdings": 2545
+    },
+    {
+      "file": "October.xlsx",
+      "status": "success",
+      "output": "data\\processed\\2025\\sbi_equity_holdings_202510.json",
+      "schemes": 67,
+      "securities": 454,
+      "holdings": 2664
+    },
+    {
+      "file": "September.xlsx",
+      "status": "success",
+      "output": "data\\processed\\2025\\sbi_equity_holdings_202509.json",
+      "schemes": 67,
+      "securities": 449,
+      "holdings": 2599
+    }
+  ]
+}
