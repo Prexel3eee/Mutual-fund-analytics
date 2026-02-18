@@ -1,40 +1,46 @@
 """
-ETL script for Edelweiss Mutual Fund monthly portfolio Excel files.
-Extracts Listed Equity holdings and outputs JSON matching database schema.
+ETL script for Bajaj Finserv Mutual Fund monthly portfolio Excel files.
+Extracts Listed Equity holdings only and outputs JSON matching database schema.
+
+Sheet structure (no Index sheet):
+  Row 1:  [sheet_code, scheme_full_name, ...]
+  Row 3:  [..., 'Monthly Portfolio Statement as on DD Mon YYYY', ...]
+  Row 4:  Headers: [code, Name of Instrument, ISIN, Industry, Quantity, Market Value, % to Net Assets, YTM]
+  Row 5:  'Equity & Equity related'  (in col 1)
+  Row 6:  '(a) Listed / awaiting listing on Stock Exchanges'  (in col 1)
+  Row 7+: Data rows
+  End:    'Sub Total' / '(b)' / 'TOTAL' in col 1
 """
 
 import argparse
 import json
 import logging
 import os
-import sys
 import re
-from collections import Counter
+import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Any
 
 import openpyxl
 
-# Column indices (0-indexed) based on Row 4 headers:
-# Name of the Instrument | ISIN | Rating/Industry | Quantity | Market/Fair Value | % to Net Assets | YIELD
-COL_NAME = 0
-COL_ISIN = 1
-COL_INDUSTRY = 2
-COL_QUANTITY = 3
-COL_MARKET_VALUE = 4
-COL_PCT_NAV = 5
+# Column indices (0-indexed)
+COL_NAME = 1          # Name of the Instrument
+COL_ISIN = 2          # ISIN
+COL_INDUSTRY = 3      # Industry / Rating
+COL_QUANTITY = 4      # Quantity
+COL_MARKET_VALUE = 5  # Market/Fair Value (Rs. in Lakhs)
+COL_PCT_NAV = 6       # % to Net Assets
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     datefmt="%H:%M:%S",
 )
-log = logging.getLogger("edelweiss_etl")
+log = logging.getLogger("bajaj_etl")
 
 
 def safe_float(val: Any) -> float | None:
-    """Convert value to float, return None if invalid."""
     if val is None:
         return None
     try:
@@ -45,7 +51,6 @@ def safe_float(val: Any) -> float | None:
 
 
 def safe_int(val: Any) -> int | None:
-    """Convert value to int, return None if invalid."""
     try:
         return int(float(val))
     except (ValueError, TypeError):
@@ -53,7 +58,6 @@ def safe_int(val: Any) -> int | None:
 
 
 def clean_str(val: Any) -> str | None:
-    """Clean string value, return None if empty."""
     if val is None:
         return None
     s = str(val).strip()
@@ -61,12 +65,12 @@ def clean_str(val: Any) -> str | None:
 
 
 def parse_date(val: Any) -> str | None:
-    """Parse date from header text like 'PORTFOLIO STATEMENT as on 31 Jan 2026'."""
+    """Parse date from text like 'Monthly Portfolio Statement as on 31 Jan 2026'."""
     if val is None:
         return None
     s = str(val).strip()
 
-    # Pattern: "as on DD Mon YYYY" or "as on DD-Mon-YYYY"
+    # Pattern: "as on DD Mon YYYY"
     m = re.search(r'as\s+on\s+(\d{1,2})\s+(\w+)\s+(\d{4})', s, re.IGNORECASE)
     if m:
         day, mon, year = m.group(1), m.group(2), m.group(3)
@@ -87,88 +91,46 @@ def parse_date(val: Any) -> str | None:
     return None
 
 
-def parse_index_sheet(wb: openpyxl.Workbook) -> dict[str, str]:
-    """Parse Index sheet to map sheet codes to scheme names.
-
-    Index sheet structure:
-    - Row 1: AMC name
-    - Row 2: Portfolio date
-    - Row 3: Headers (Fund Id, Fund Desc, ...)
-    - Row 4+: Data rows
-
-    Returns:
-        dict mapping sheet code (Fund Id) to scheme name (Fund Desc)
-    """
-    if "Index" not in wb.sheetnames:
-        log.warning("No 'Index' sheet found")
-        return {}
-
-    ws = wb["Index"]
-    rows = list(ws.iter_rows(values_only=True))
-
-    scheme_map = {}
-
-    # Data starts from row 4 (index 3), after header row
-    for i, r in enumerate(rows[3:], start=4):
-        fund_id = clean_str(r[0]) if len(r) > 0 else None
-        fund_desc = clean_str(r[1]) if len(r) > 1 else None
-
-        if fund_id and fund_desc:
-            scheme_map[fund_id] = fund_desc
-            log.debug(f"  {fund_id} -> {fund_desc}")
-
-    log.info(f"Parsed Index sheet: {len(scheme_map)} schemes")
-    return scheme_map
-
-
 def extract_equity_holdings(ws_rows: list[tuple], scheme_info: dict) -> dict | None:
-    """Extract ONLY listed equity holdings from a scheme sheet.
+    """Extract ONLY listed equity holdings from a Bajaj Finserv scheme sheet.
 
-    Structure for equity funds:
+    Equity section structure (all in col 1):
       Row N:   'Equity & Equity related'
-      Row N+1: '(a) Listed / Awaiting listing on Stock Exchanges'
+      Row N+1: '(a) Listed / awaiting listing on Stock Exchanges'
       Row N+2+: data rows
-      Row M:   'Sub Total'  ← stop here
+      Row M:   'Sub Total' or '(b)' or 'TOTAL'  ← stop here
 
-    Structure for debt/mixed funds:
-      Row N:   'Equity & Equity related'   (empty section)
-      Row N+2: 'Debt Instruments'          ← different section header
-      Row N+3: '(a) Listed...'             ← this is debt, NOT equity
-
-    Fix: only accept '(a) Listed' if it appears within 3 rows of the
-    equity header AND before any other section header (Debt, Money Market, etc.)
+    For debt/hybrid funds, equity section may be empty (Sub Total immediately follows).
     """
     scheme_name = scheme_info.get("scheme_name", "Unknown")
 
-    # Find equity section row
+    # Find equity header in col 1
     equity_row = None
     for i, r in enumerate(ws_rows):
-        cell0 = clean_str(r[0]) if len(r) > 0 else None
-        if not cell0:
+        cell1 = clean_str(r[COL_NAME]) if len(r) > COL_NAME else None
+        if not cell1:
             continue
-        cl = cell0.lower()
+        cl = cell1.lower()
         if 'equity' in cl and 'related' in cl:
             equity_row = i
             break
 
     if equity_row is None:
-        return None  # No equity section at all
+        return None
 
-    # Now look for '(a) Listed' ONLY within the next 3 rows after equity header
-    # If we hit another section header first, this fund has no listed equity
-    NON_EQUITY_SECTIONS = ('debt', 'money market', 'government', 'securitised', 'treps', 'derivatives')
+    # Look for '(a) Listed' within 3 rows of equity header (col 1)
+    NON_EQUITY = ('debt', 'money market', 'government', 'securitised', 'treps', 'derivatives')
     listed_row = None
 
     for i in range(equity_row + 1, min(equity_row + 4, len(ws_rows))):
         r = ws_rows[i]
-        cell0 = clean_str(r[0]) if len(r) > 0 else None
-        if not cell0:
+        cell1 = clean_str(r[COL_NAME]) if len(r) > COL_NAME else None
+        if not cell1:
             continue
-        cl = cell0.lower()
+        cl = cell1.lower()
 
-        # If we hit another major section before finding (a) Listed → no equity
-        if any(sec in cl for sec in NON_EQUITY_SECTIONS):
-            log.debug(f"  {scheme_name}: No listed equity (found '{cell0}' after equity header)")
+        if any(sec in cl for sec in NON_EQUITY):
+            log.debug(f"  {scheme_name}: No listed equity (found '{cell1}' after equity header)")
             return None
 
         if '(a)' in cl and ('listed' in cl or 'awaiting' in cl):
@@ -176,20 +138,19 @@ def extract_equity_holdings(ws_rows: list[tuple], scheme_info: dict) -> dict | N
             break
 
     if listed_row is None:
-        # No explicit (a) subsection found close to equity header → no listed equity
         log.debug(f"  {scheme_name}: No '(a) Listed' subsection found near equity header")
         return None
 
-    # Extract holdings from listed_row+1 until first Sub Total / (b) / (c)
+    # Extract holdings until Sub Total / (b) / TOTAL
     holdings = []
     isin_map = {}
 
     for i in range(listed_row + 1, len(ws_rows)):
         r = ws_rows[i]
 
-        cell0 = clean_str(r[0]) if len(r) > 0 else None
-        if cell0:
-            cl = cell0.lower().strip()
+        cell1 = clean_str(r[COL_NAME]) if len(r) > COL_NAME else None
+        if cell1:
+            cl = cell1.lower().strip()
             if cl in ('sub total', 'total', 'sub-total'):
                 break
             if cl.startswith('(b)') or cl.startswith('(c)'):
@@ -241,56 +202,37 @@ def extract_equity_holdings(ws_rows: list[tuple], scheme_info: dict) -> dict | N
 
 
 def run_etl(excel_path: str, date_override: str | None = None) -> dict:
-    """Run the ETL process on an Edelweiss Mutual Fund portfolio Excel file."""
+    """Run the ETL process on a Bajaj Finserv portfolio Excel file."""
     log.info(f"Processing: {excel_path}")
 
     wb = openpyxl.load_workbook(excel_path, read_only=True, data_only=True)
 
-    # Parse index sheet
-    scheme_map = parse_index_sheet(wb)
-
-    # Extract report date
-    report_date = None
-
-    if date_override:
-        report_date = date_override
-        log.info(f"Using provided report date: {report_date}")
-    else:
-        # Try from Index sheet Row 2
-        if "Index" in wb.sheetnames:
-            ws = wb["Index"]
-            rows = list(ws.iter_rows(max_row=5, values_only=True))
-            for r in rows:
-                for cell in r:
-                    if cell:
-                        parsed = parse_date(cell)
-                        if parsed:
-                            report_date = parsed
-                            break
-                if report_date:
-                    break
-
-    if not report_date:
-        log.warning("Could not extract report date, using current date")
-        report_date = datetime.now().strftime("%Y-%m-%d")
-
-    log.info(f"Report date: {report_date}")
-
-    # Process each scheme sheet
     all_funds = []
     all_securities = {}
     all_holdings = []
+    report_date = date_override
     skipped = 0
 
     for sheet_name in wb.sheetnames:
-        if sheet_name.lower() == "index":
-            continue
-
-        scheme_name = scheme_map.get(sheet_name, f"Unknown ({sheet_name})")
-
         try:
             ws = wb[sheet_name]
             ws_rows = list(ws.iter_rows(values_only=True))
+
+            # Extract scheme name from B1 (row 0, col 1)
+            scheme_name = None
+            if len(ws_rows) > 0 and len(ws_rows[0]) > 1:
+                scheme_name = clean_str(ws_rows[0][1])
+            if not scheme_name:
+                scheme_name = sheet_name
+
+            # Extract report date from Row 3 col 1 (first sheet only)
+            if report_date is None and len(ws_rows) > 2:
+                for col_idx in range(min(4, len(ws_rows[2]))):
+                    parsed = parse_date(ws_rows[2][col_idx])
+                    if parsed:
+                        report_date = parsed
+                        log.info(f"Report date: {report_date}")
+                        break
 
             result = extract_equity_holdings(ws_rows, {
                 "scheme_name": scheme_name,
@@ -302,13 +244,11 @@ def run_etl(excel_path: str, date_override: str | None = None) -> dict:
                 continue
 
             holdings = result["holdings"]
-            fund_id = f"EDELWEISS_{sheet_name}"
 
             fund_record = {
-                "fund_id": fund_id,
                 "scheme_name": result["scheme_name"],
                 "scheme_code": sheet_name,
-                "scheme_short_code": sheet_name,  # Required by load_to_postgres.py
+                "scheme_short_code": sheet_name,
             }
             all_funds.append(fund_record)
 
@@ -338,6 +278,10 @@ def run_etl(excel_path: str, date_override: str | None = None) -> dict:
             log.warning(f"  ✗ {sheet_name}: {e}")
             skipped += 1
 
+    if not report_date:
+        log.warning("Could not extract report date, using current date")
+        report_date = datetime.now().strftime("%Y-%m-%d")
+
     log.info(f"  Schemes: {len(all_funds)}, Skipped: {skipped}")
     log.info(f"  Securities: {len(all_securities)}")
     log.info(f"  Total holdings: {len(all_holdings)}")
@@ -345,16 +289,16 @@ def run_etl(excel_path: str, date_override: str | None = None) -> dict:
     return {
         "metadata": {
             "source_file": os.path.basename(excel_path),
-            "amc": "Edelweiss Mutual Fund",
+            "amc": "Bajaj Finserv Mutual Fund",
             "report_date": report_date,
-            "total_schemes": len(wb.sheetnames) - 1,
+            "total_sheets": len(wb.sheetnames),
             "schemes_with_equity": len(all_funds),
             "total_unique_securities": len(all_securities),
             "total_holdings_records": len(all_holdings),
         },
         "amc_master": {
-            "amc_name": "Edelweiss Mutual Fund",
-            "short_code": "EDELWEISS",
+            "amc_name": "Bajaj Finserv Mutual Fund",
+            "short_code": "BAJAJFINSERV",
         },
         "fund_master": all_funds,
         "security_master": list(all_securities.values()),
@@ -364,7 +308,7 @@ def run_etl(excel_path: str, date_override: str | None = None) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="ETL for Edelweiss Mutual Fund portfolio Excel files"
+        description="ETL for Bajaj Finserv Mutual Fund portfolio Excel files"
     )
     parser.add_argument("excel_file", help="Path to Excel file")
     parser.add_argument("--output", "-o", help="Output JSON file path")
@@ -376,15 +320,13 @@ def main():
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
 
-    # Run ETL
     data = run_etl(args.excel_file, date_override=args.date)
 
-    # Determine output path
     if args.output:
         out_path = args.output
     else:
         stem = Path(args.excel_file).stem.lower()
-        out_path = f"data/processed/edelweiss/edelweiss_equity_holdings_{stem}.json"
+        out_path = f"data/processed/bajaj/bajaj_equity_holdings_{stem}.json"
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
 

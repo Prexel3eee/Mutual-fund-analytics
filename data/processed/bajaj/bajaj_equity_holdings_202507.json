@@ -1,0 +1,4697 @@
+{
+  "metadata": {
+    "source_file": "July.xlsx",
+    "amc": "Bajaj Finserv Mutual Fund",
+    "report_date": "2025-07-31",
+    "total_sheets": 12,
+    "schemes_with_equity": 7,
+    "total_unique_securities": 193,
+    "total_holdings_records": 387
+  },
+  "amc_master": {
+    "amc_name": "Bajaj Finserv Mutual Fund",
+    "short_code": "BAJAJFINSERV"
+  },
+  "fund_master": [
+    {
+      "scheme_name": "Bajaj Finserv Arbitrage Fund",
+      "scheme_code": "BFARB",
+      "scheme_short_code": "BFARB"
+    },
+    {
+      "scheme_name": "Bajaj Finserv Balanced Advantage Fund",
+      "scheme_code": "BFBAF",
+      "scheme_short_code": "BFBAF"
+    },
+    {
+      "scheme_name": "Bajaj Finserv Flexi Cap Fund",
+      "scheme_code": "BFFLX",
+      "scheme_short_code": "BFFLX"
+    },
+    {
+      "scheme_name": "Bajaj Finserv Large and Midcap Fund",
+      "scheme_code": "BFLMC",
+      "scheme_short_code": "BFLMC"
+    },
+    {
+      "scheme_name": "Bajaj Finserv Multi Asset Allocation Fund",
+      "scheme_code": "BFMAF",
+      "scheme_short_code": "BFMAF"
+    },
+    {
+      "scheme_name": "Bajaj Finserv Nifty 50 ETF",
+      "scheme_code": "N50ETF",
+      "scheme_short_code": "N50ETF"
+    },
+    {
+      "scheme_name": "Bajaj Finserv Nifty Bank ETF",
+      "scheme_code": "NBANKETF",
+      "scheme_short_code": "NBANKETF"
+    }
+  ],
+  "security_master": [
+    {
+      "isin": "INE040A01034",
+      "security_name": "HDFC Bank Limited",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE028A01039",
+      "security_name": "Bank of Baroda",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE745G01035",
+      "security_name": "Multi Commodity Exchange of India Limited",
+      "current_industry": "Capital Markets",
+      "current_sector": null
+    },
+    {
+      "isin": "INE002A01018",
+      "security_name": "Reliance Industries Limited",
+      "current_industry": "Petroleum Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE881D01027",
+      "security_name": "Oracle Financial Services Software Limited",
+      "current_industry": "IT - Software",
+      "current_sector": null
+    },
+    {
+      "isin": "INE237A01028",
+      "security_name": "Kotak Mahindra Bank Limited",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE455K01017",
+      "security_name": "Polycab India Limited",
+      "current_industry": "Industrial Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE245A01021",
+      "security_name": "Tata Power Company Limited",
+      "current_industry": "Power",
+      "current_sector": null
+    },
+    {
+      "isin": "INE066F01020",
+      "security_name": "Hindustan Aeronautics Limited",
+      "current_industry": "Aerospace & Defense",
+      "current_sector": null
+    },
+    {
+      "isin": "INE154A01025",
+      "security_name": "ITC Limited",
+      "current_industry": "Diversified FMCG",
+      "current_sector": null
+    },
+    {
+      "isin": "INE030A01027",
+      "security_name": "Hindustan Unilever Limited",
+      "current_industry": "Diversified FMCG",
+      "current_sector": null
+    },
+    {
+      "isin": "INE018A01030",
+      "security_name": "Larsen & Toubro Limited",
+      "current_industry": "Construction",
+      "current_sector": null
+    },
+    {
+      "isin": "INE646L01027",
+      "security_name": "InterGlobe Aviation Limited",
+      "current_industry": "Transport Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE335Y01020",
+      "security_name": "Indian Railway Catering And Tourism Corporation Limited",
+      "current_industry": "Leisure Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE296A01024",
+      "security_name": "Bajaj Finance Limited",
+      "current_industry": "Finance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE776C01039",
+      "security_name": "GMR Airports Infrastructure Limited",
+      "current_industry": "Transport Infrastructure",
+      "current_sector": null
+    },
+    {
+      "isin": "INE721A01013",
+      "security_name": "Shriram Finance Limited",
+      "current_industry": "Finance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE935A01035",
+      "security_name": "Glenmark Pharmaceuticals Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE467B01029",
+      "security_name": "Tata Consultancy Services Limited",
+      "current_industry": "IT - Software",
+      "current_sector": null
+    },
+    {
+      "isin": "INE022Q01020",
+      "security_name": "Indian Energy Exchange Limited",
+      "current_industry": "Capital Markets",
+      "current_sector": null
+    },
+    {
+      "isin": "INE151A01013",
+      "security_name": "Tata Communications Limited",
+      "current_industry": "Telecom - Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE00R701025",
+      "security_name": "Dalmia Bharat Limited",
+      "current_industry": "Cement & Cement Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE114A01011",
+      "security_name": "Steel Authority of India Limited",
+      "current_industry": "Ferrous Metals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE585B01010",
+      "security_name": "Maruti Suzuki India Limited",
+      "current_industry": "Automobiles",
+      "current_sector": null
+    },
+    {
+      "isin": "INE298A01020",
+      "security_name": "Cummins India Limited",
+      "current_industry": "Industrial Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE112L01020",
+      "security_name": "Metropolis Healthcare Limited",
+      "current_industry": "Healthcare Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE111A01025",
+      "security_name": "Container Corporation of India Limited",
+      "current_industry": "Transport Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE257A01026",
+      "security_name": "Bharat Heavy Electricals Limited",
+      "current_industry": "Electrical Equipment",
+      "current_sector": null
+    },
+    {
+      "isin": "INE094A01015",
+      "security_name": "Hindustan Petroleum Corporation Limited",
+      "current_industry": "Petroleum Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE280A01028",
+      "security_name": "Titan Company Limited",
+      "current_industry": "Consumer Durables",
+      "current_sector": null
+    },
+    {
+      "isin": "INE020B01018",
+      "security_name": "REC Limited",
+      "current_industry": "Finance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE062A01020",
+      "security_name": "State Bank of India",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE115A01026",
+      "security_name": "LIC Housing Finance Limited",
+      "current_industry": "Finance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE081A01020",
+      "security_name": "Tata Steel Limited",
+      "current_industry": "Ferrous Metals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE540L01014",
+      "security_name": "Alkem Laboratories Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE749A01030",
+      "security_name": "Jindal Steel & Power Limited",
+      "current_industry": "Ferrous Metals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE238A01034",
+      "security_name": "Axis Bank Limited",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE171A01029",
+      "security_name": "The Federal Bank Limited",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE669E01016",
+      "security_name": "Vodafone Idea Limited",
+      "current_industry": "Telecom - Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE213A01029",
+      "security_name": "Oil & Natural Gas Corporation Limited",
+      "current_industry": "Oil",
+      "current_sector": null
+    },
+    {
+      "isin": "INE263A01024",
+      "security_name": "Bharat Electronics Limited",
+      "current_industry": "Aerospace & Defense",
+      "current_sector": null
+    },
+    {
+      "isin": "INE121J01017",
+      "security_name": "Indus Towers Limited",
+      "current_industry": "Telecom - Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE849A01020",
+      "security_name": "Trent Limited",
+      "current_industry": "Retailing",
+      "current_sector": null
+    },
+    {
+      "isin": "INE545U01014",
+      "security_name": "Bandhan Bank Limited",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE101A01026",
+      "security_name": "Mahindra & Mahindra Limited",
+      "current_industry": "Automobiles",
+      "current_sector": null
+    },
+    {
+      "isin": "INE002S01010",
+      "security_name": "Mahanagar Gas Limited",
+      "current_industry": "Gas",
+      "current_sector": null
+    },
+    {
+      "isin": "INE095A01012",
+      "security_name": "IndusInd Bank Limited",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE113A01013",
+      "security_name": "Gujarat Narmada Valley Fertilizers and Chemicals Limited",
+      "current_industry": "Chemicals & Petrochemicals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE463A01038",
+      "security_name": "Berger Paints (I) Limited",
+      "current_industry": "Consumer Durables",
+      "current_sector": null
+    },
+    {
+      "isin": "INE476A01022",
+      "security_name": "Canara Bank",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE406A01037",
+      "security_name": "Aurobindo Pharma Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE742F01042",
+      "security_name": "Adani Ports and Special Economic Zone Limited",
+      "current_industry": "Transport Infrastructure",
+      "current_sector": null
+    },
+    {
+      "isin": "INE160A01022",
+      "security_name": "Punjab National Bank",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE129A01019",
+      "security_name": "GAIL (India) Limited",
+      "current_industry": "Gas",
+      "current_sector": null
+    },
+    {
+      "isin": "INE733E01010",
+      "security_name": "NTPC Limited",
+      "current_industry": "Power",
+      "current_sector": null
+    },
+    {
+      "isin": "INE299U01018",
+      "security_name": "Crompton Greaves Consumer Electricals Limited",
+      "current_industry": "Consumer Durables",
+      "current_sector": null
+    },
+    {
+      "isin": "INE176B01034",
+      "security_name": "Havells India Limited",
+      "current_industry": "Consumer Durables",
+      "current_sector": null
+    },
+    {
+      "isin": "INE498L01015",
+      "security_name": "L&T Finance Limited",
+      "current_industry": "Finance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE021A01026",
+      "security_name": "Asian Paints Limited",
+      "current_industry": "Consumer Durables",
+      "current_sector": null
+    },
+    {
+      "isin": "INE043D01016",
+      "security_name": "IDFC Limited",
+      "current_industry": "Finance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE158A01026",
+      "security_name": "Hero MotoCorp Limited",
+      "current_industry": "Automobiles",
+      "current_sector": null
+    },
+    {
+      "isin": "INE356A01018",
+      "security_name": "Mphasis Limited",
+      "current_industry": "IT - Software",
+      "current_sector": null
+    },
+    {
+      "isin": "INE854D01024",
+      "security_name": "United Spirits Limited",
+      "current_industry": "Beverages",
+      "current_sector": null
+    },
+    {
+      "isin": "INE079A01024",
+      "security_name": "Ambuja Cements Limited",
+      "current_industry": "Cement & Cement Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE242A01010",
+      "security_name": "Indian Oil Corporation Limited",
+      "current_industry": "Petroleum Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE647A01010",
+      "security_name": "SRF Limited",
+      "current_industry": "Chemicals & Petrochemicals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE522F01014",
+      "security_name": "Coal India Limited",
+      "current_industry": "Consumable Fuels",
+      "current_sector": null
+    },
+    {
+      "isin": "INE089A01023",
+      "security_name": "Dr. Reddy's Laboratories Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE059A01026",
+      "security_name": "Cipla Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE376G01013",
+      "security_name": "Biocon Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE047A01021",
+      "security_name": "Grasim Industries Limited",
+      "current_industry": "Cement & Cement Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE397D01024",
+      "security_name": "Bharti Airtel Limited",
+      "current_industry": "Telecom - Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE584A01023",
+      "security_name": "NMDC Limited",
+      "current_industry": "Minerals & Mining",
+      "current_sector": null
+    },
+    {
+      "isin": "INE437A01024",
+      "security_name": "Apollo Hospitals Enterprise Limited",
+      "current_industry": "Healthcare Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE119A01028",
+      "security_name": "Balrampur Chini Mills Limited",
+      "current_industry": "Agricultural Food & other Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE010B01027",
+      "security_name": "Zydus Lifesciences Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE127D01025",
+      "security_name": "HDFC Asset Management Company Limited",
+      "current_industry": "Capital Markets",
+      "current_sector": null
+    },
+    {
+      "isin": "INE271C01023",
+      "security_name": "DLF Limited",
+      "current_industry": "Realty",
+      "current_sector": null
+    },
+    {
+      "isin": "INE423A01024",
+      "security_name": "Adani Enterprises Limited",
+      "current_industry": "Metals & Minerals Trading",
+      "current_sector": null
+    },
+    {
+      "isin": "INE669C01036",
+      "security_name": "Tech Mahindra Limited",
+      "current_industry": "IT - Software",
+      "current_sector": null
+    },
+    {
+      "isin": "INE140A01024",
+      "security_name": "Piramal Enterprises Limited",
+      "current_industry": "Finance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE029A01011",
+      "security_name": "Bharat Petroleum Corporation Limited",
+      "current_industry": "Petroleum Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE531E01026",
+      "security_name": "Hindustan Copper Limited",
+      "current_industry": "Non - Ferrous Metals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE214T01019",
+      "security_name": "LTIMindtree Limited",
+      "current_industry": "IT - Software",
+      "current_sector": null
+    },
+    {
+      "isin": "INE347G01014",
+      "security_name": "Petronet LNG Limited",
+      "current_industry": "Gas",
+      "current_sector": null
+    },
+    {
+      "isin": "INE075A01022",
+      "security_name": "Wipro Limited",
+      "current_industry": "IT - Software",
+      "current_sector": null
+    },
+    {
+      "isin": "INE491A01021",
+      "security_name": "City Union Bank Limited",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE414G01012",
+      "security_name": "Muthoot Finance Limited",
+      "current_industry": "Finance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE769A01020",
+      "security_name": "Aarti Industries Limited",
+      "current_industry": "Chemicals & Petrochemicals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE092A01019",
+      "security_name": "Tata Chemicals Limited",
+      "current_industry": "Chemicals & Petrochemicals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE012A01025",
+      "security_name": "ACC Limited",
+      "current_industry": "Cement & Cement Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE787D01026",
+      "security_name": "Balkrishna Industries Limited",
+      "current_industry": "Auto Components",
+      "current_sector": null
+    },
+    {
+      "isin": "INE180A01020",
+      "security_name": "Max Financial Services Limited",
+      "current_industry": "Insurance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE090A01021",
+      "security_name": "ICICI Bank Limited",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE009A01021",
+      "security_name": "Infosys Limited",
+      "current_industry": "IT - Software",
+      "current_sector": null
+    },
+    {
+      "isin": "INE216A01030",
+      "security_name": "Britannia Industries Limited",
+      "current_industry": "Food Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE044A01036",
+      "security_name": "Sun Pharmaceutical Industries Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE192A01025",
+      "security_name": "Tata Consumer Products Limited",
+      "current_industry": "Agricultural Food & other Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE481G01011",
+      "security_name": "UltraTech Cement Limited",
+      "current_industry": "Cement & Cement Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE155A01022",
+      "security_name": "Tata Motors Limited",
+      "current_industry": "Automobiles",
+      "current_sector": null
+    },
+    {
+      "isin": "INE019A01038",
+      "security_name": "JSW Steel Limited",
+      "current_industry": "Ferrous Metals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE686F01025",
+      "security_name": "United Breweries Limited",
+      "current_industry": "Beverages",
+      "current_sector": null
+    },
+    {
+      "isin": "INE038A01020",
+      "security_name": "Hindalco Industries Limited",
+      "current_industry": "Non - Ferrous Metals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE917I01010",
+      "security_name": "Bajaj Auto Limited",
+      "current_industry": "Automobiles",
+      "current_sector": null
+    },
+    {
+      "isin": "INE196A01026",
+      "security_name": "Marico Limited",
+      "current_industry": "Agricultural Food & other Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE168P01015",
+      "security_name": "Emcure Pharmaceuticals Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE548C01032",
+      "security_name": "Emami Limited",
+      "current_industry": "Personal Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE494B01023",
+      "security_name": "TVS Motor Company Limited",
+      "current_industry": "Automobiles",
+      "current_sector": null
+    },
+    {
+      "isin": "INE016A01026",
+      "security_name": "Dabur India Limited",
+      "current_industry": "Personal Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE763G01038",
+      "security_name": "ICICI Securities Limited",
+      "current_industry": "Capital Markets",
+      "current_sector": null
+    },
+    {
+      "isin": "INE239A01024",
+      "security_name": "Nestle India Limited",
+      "current_industry": "Food Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE758T01015",
+      "security_name": "Zomato Limited",
+      "current_industry": "Retailing",
+      "current_sector": null
+    },
+    {
+      "isin": "INE058A01010",
+      "security_name": "Sanofi India Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE179A01014",
+      "security_name": "Procter & Gamble Hygiene and Health Care Limited",
+      "current_industry": "Personal Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE361B01024",
+      "security_name": "Divi's Laboratories Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE0UOS01011",
+      "security_name": "Sanofi Consumer Healthcare India Limited **",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE123W01016",
+      "security_name": "SBI Life Insurance Company Limited",
+      "current_industry": "Insurance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE117A01022",
+      "security_name": "ABB India Limited",
+      "current_industry": "Electrical Equipment",
+      "current_sector": null
+    },
+    {
+      "isin": "INE192A20017",
+      "security_name": "Tata Consumer Products Limited **",
+      "current_industry": "Agricultural Food & other Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE659A01023",
+      "security_name": "Sudarshan Chemical Industries Limited",
+      "current_industry": "Chemicals & Petrochemicals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE405E01023",
+      "security_name": "UNO Minda Limited",
+      "current_industry": "Auto Components",
+      "current_sector": null
+    },
+    {
+      "isin": "INE200A01026",
+      "security_name": "GE T&D India Limited",
+      "current_industry": "Electrical Equipment",
+      "current_sector": null
+    },
+    {
+      "isin": "INE332A01027",
+      "security_name": "Thomas Cook  (India)  Limited",
+      "current_industry": "Leisure Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE07Y701011",
+      "security_name": "Hitachi Energy India Limited",
+      "current_industry": "Electrical Equipment",
+      "current_sector": null
+    },
+    {
+      "isin": "INE956G01038",
+      "security_name": "VA Tech Wabag Limited",
+      "current_industry": "Other Utilities",
+      "current_sector": null
+    },
+    {
+      "isin": "INE217B01036",
+      "security_name": "Kajaria Ceramics Limited",
+      "current_industry": "Consumer Durables",
+      "current_sector": null
+    },
+    {
+      "isin": "INE797F01020",
+      "security_name": "Jubilant Foodworks Limited",
+      "current_industry": "Leisure Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE739E01017",
+      "security_name": "Cera Sanitaryware Limited",
+      "current_industry": "Consumer Durables",
+      "current_sector": null
+    },
+    {
+      "isin": "INE191A01027",
+      "security_name": "Orchid Pharma Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE559R01029",
+      "security_name": "Landmark Cars Limited",
+      "current_industry": "Automobiles",
+      "current_sector": null
+    },
+    {
+      "isin": "INE322A01010",
+      "security_name": "Gillette India Limited",
+      "current_industry": "Personal Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE596I01012",
+      "security_name": "Computer Age Management Services Limited",
+      "current_industry": "Capital Markets",
+      "current_sector": null
+    },
+    {
+      "isin": "INE388Y01029",
+      "security_name": "FSN E-Commerce Ventures Limited",
+      "current_industry": "Retailing",
+      "current_sector": null
+    },
+    {
+      "isin": "INE0DK501011",
+      "security_name": "Piramal Pharma Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE933S01016",
+      "security_name": "Indiamart Intermesh Limited",
+      "current_industry": "Retailing",
+      "current_sector": null
+    },
+    {
+      "isin": "INE794A01010",
+      "security_name": "Neuland Laboratories Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE671H01015",
+      "security_name": "Sobha Limited",
+      "current_industry": "Realty",
+      "current_sector": null
+    },
+    {
+      "isin": "INE398R01022",
+      "security_name": "Syngene International Limited",
+      "current_industry": "Healthcare Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE212H01026",
+      "security_name": "AIA Engineering Limited",
+      "current_industry": "Industrial Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE935N01020",
+      "security_name": "Dixon Technologies (India) Limited",
+      "current_industry": "Consumer Durables",
+      "current_sector": null
+    },
+    {
+      "isin": "INE003A01024",
+      "security_name": "Siemens Limited",
+      "current_industry": "Electrical Equipment",
+      "current_sector": null
+    },
+    {
+      "isin": "INE825V01034",
+      "security_name": "Vedant Fashions Limited",
+      "current_industry": "Retailing",
+      "current_sector": null
+    },
+    {
+      "isin": "INE671A01010",
+      "security_name": "Honeywell Automation India Limited",
+      "current_industry": "Industrial Manufacturing",
+      "current_sector": null
+    },
+    {
+      "isin": "INE510A01028",
+      "security_name": "Engineers India Limited",
+      "current_industry": "Construction",
+      "current_sector": null
+    },
+    {
+      "isin": "INE999A01023",
+      "security_name": "KSB Limited",
+      "current_industry": "Industrial Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE00M201021",
+      "security_name": "Sterling And Wilson Renewable Energy Limited",
+      "current_industry": "Construction",
+      "current_sector": null
+    },
+    {
+      "isin": "INE536A01023",
+      "security_name": "Grindwell Norton Limited",
+      "current_industry": "Industrial Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE418L01021",
+      "security_name": "Nazara Technologies Limited",
+      "current_industry": "Entertainment",
+      "current_sector": null
+    },
+    {
+      "isin": "INE474Q01031",
+      "security_name": "Global Health Limited",
+      "current_industry": "Healthcare Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE393P01035",
+      "security_name": "Prataap Snacks Limited",
+      "current_industry": "Food Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE893J01029",
+      "security_name": "Mold-Tek Packaging Limited",
+      "current_industry": "Industrial Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE839M01018",
+      "security_name": "Schneider Electric Infrastructure Limited",
+      "current_industry": "Electrical Equipment",
+      "current_sector": null
+    },
+    {
+      "isin": "INE331A01037",
+      "security_name": "The Ramco Cements Limited",
+      "current_industry": "Cement & Cement Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE317I01021",
+      "security_name": "Metro Brands Limited",
+      "current_industry": "Consumer Durables",
+      "current_sector": null
+    },
+    {
+      "isin": "INE274F01020",
+      "security_name": "Westlife Foodworld Limited",
+      "current_industry": "Leisure Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE955D01029",
+      "security_name": "Genus Power Infrastructures Limited",
+      "current_industry": "Electrical Equipment",
+      "current_sector": null
+    },
+    {
+      "isin": "INE429E01023",
+      "security_name": "Safari Industries (India) Limited",
+      "current_industry": "Consumer Durables",
+      "current_sector": null
+    },
+    {
+      "isin": "INE410B01037",
+      "security_name": "Vinati Organics Limited",
+      "current_industry": "Chemicals & Petrochemicals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE343H01029",
+      "security_name": "Solar Industries India Limited",
+      "current_industry": "Chemicals & Petrochemicals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE288B01029",
+      "security_name": "Deepak Nitrite Limited",
+      "current_industry": "Chemicals & Petrochemicals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE226A01021",
+      "security_name": "Voltas Limited",
+      "current_industry": "Consumer Durables",
+      "current_sector": null
+    },
+    {
+      "isin": "INE663F01024",
+      "security_name": "Info Edge (India) Limited",
+      "current_industry": "Retailing",
+      "current_sector": null
+    },
+    {
+      "isin": "INE761H01022",
+      "security_name": "Page Industries Limited",
+      "current_industry": "Textiles & Apparels",
+      "current_sector": null
+    },
+    {
+      "isin": "INE017A01032",
+      "security_name": "The Great Eastern Shipping Company Limited",
+      "current_industry": "Transport Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE093I01010",
+      "security_name": "Oberoi Realty Limited",
+      "current_industry": "Realty",
+      "current_sector": null
+    },
+    {
+      "isin": "INE342J01019",
+      "security_name": "ZF Commercial Vehicle Control Systems India Limited",
+      "current_industry": "Auto Components",
+      "current_sector": null
+    },
+    {
+      "isin": "INE603J01030",
+      "security_name": "PI Industries Limited",
+      "current_industry": "Fertilizers & Agrochemicals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE053A01029",
+      "security_name": "The Indian Hotels Company Limited",
+      "current_industry": "Leisure Services",
+      "current_sector": null
+    },
+    {
+      "isin": "INE325A01013",
+      "security_name": "Timken India Limited",
+      "current_industry": "Industrial Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE765G01017",
+      "security_name": "ICICI Lombard General Insurance Company Limited",
+      "current_industry": "Insurance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE007A01025",
+      "security_name": "CRISIL Limited",
+      "current_industry": "Finance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE473A01011",
+      "security_name": "Linde India Limited",
+      "current_industry": "Chemicals & Petrochemicals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE211B01039",
+      "security_name": "The Phoenix Mills Limited",
+      "current_industry": "Realty",
+      "current_sector": null
+    },
+    {
+      "isin": "INE358A01014",
+      "security_name": "Abbott India Limited",
+      "current_industry": "Pharmaceuticals & Biotechnology",
+      "current_sector": null
+    },
+    {
+      "isin": "INE191H01014",
+      "security_name": "PVR INOX Limited",
+      "current_industry": "Entertainment",
+      "current_sector": null
+    },
+    {
+      "isin": "INE880J01026",
+      "security_name": "JSW Infrastructure Ltd",
+      "current_industry": "Transport Infrastructure",
+      "current_sector": null
+    },
+    {
+      "isin": "INE0FS801015",
+      "security_name": "Motherson Sumi Wiring India Limited",
+      "current_industry": "Auto Components",
+      "current_sector": null
+    },
+    {
+      "isin": "INE0NHL23019",
+      "security_name": "Bharat Highways Invit",
+      "current_industry": "Construction",
+      "current_sector": null
+    },
+    {
+      "isin": "INE466L01038",
+      "security_name": "360 One WAM Limited",
+      "current_industry": "Capital Markets",
+      "current_sector": null
+    },
+    {
+      "isin": "INE462A01022",
+      "security_name": "Bayer Cropscience Limited",
+      "current_industry": "Fertilizers & Agrochemicals",
+      "current_sector": null
+    },
+    {
+      "isin": "INE172A01027",
+      "security_name": "Castrol India Limited",
+      "current_industry": "Petroleum Products",
+      "current_sector": null
+    },
+    {
+      "isin": "INE848E01016",
+      "security_name": "NHPC Limited",
+      "current_industry": "Power",
+      "current_sector": null
+    },
+    {
+      "isin": "INE208A01029",
+      "security_name": "Ashok Leyland Limited",
+      "current_industry": "Agricultural, Commercial & Construction Vehicles",
+      "current_sector": null
+    },
+    {
+      "isin": "INE562A01011",
+      "security_name": "Indian Bank",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE752E01010",
+      "security_name": "Power Grid Corporation of India Limited",
+      "current_industry": "Power",
+      "current_sector": null
+    },
+    {
+      "isin": "INE133A01011",
+      "security_name": "Akzo Nobel India Limited",
+      "current_industry": "Consumer Durables",
+      "current_sector": null
+    },
+    {
+      "isin": "INE274J01014",
+      "security_name": "Oil India Limited",
+      "current_industry": "Oil",
+      "current_sector": null
+    },
+    {
+      "isin": "INE860A01027",
+      "security_name": "HCL Technologies Limited",
+      "current_industry": "IT - Software",
+      "current_sector": null
+    },
+    {
+      "isin": "INE918I01026",
+      "security_name": "Bajaj Finserv Limited",
+      "current_industry": "Finance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE795G01014",
+      "security_name": "HDFC Life Insurance Company Limited",
+      "current_industry": "Insurance",
+      "current_sector": null
+    },
+    {
+      "isin": "INE066A01021",
+      "security_name": "Eicher Motors Limited",
+      "current_industry": "Automobiles",
+      "current_sector": null
+    },
+    {
+      "isin": "INE949L01017",
+      "security_name": "AU Small Finance Bank Limited",
+      "current_industry": "Banks",
+      "current_sector": null
+    },
+    {
+      "isin": "INE092T01019",
+      "security_name": "IDFC First Bank Limited",
+      "current_industry": "Banks",
+      "current_sector": null
+    }
+  ],
+  "portfolio_holdings": [
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE040A01034",
+      "report_date": "2025-07-31",
+      "quantity": 237050,
+      "market_value_lakhs": 3830.1354,
+      "pct_to_aum": 0.0465,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE028A01039",
+      "report_date": "2025-07-31",
+      "quantity": 1064700,
+      "market_value_lakhs": 2700.6116,
+      "pct_to_aum": 0.0328,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE745G01035",
+      "report_date": "2025-07-31",
+      "quantity": 60400,
+      "market_value_lakhs": 2590.9788,
+      "pct_to_aum": 0.0315,
+      "industry": "Capital Markets"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE002A01018",
+      "report_date": "2025-07-31",
+      "quantity": 83250,
+      "market_value_lakhs": 2506.5326,
+      "pct_to_aum": 0.0304,
+      "industry": "Petroleum Products"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE881D01027",
+      "report_date": "2025-07-31",
+      "quantity": 21600,
+      "market_value_lakhs": 2385.6876,
+      "pct_to_aum": 0.029,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE237A01028",
+      "report_date": "2025-07-31",
+      "quantity": 130800,
+      "market_value_lakhs": 2364.7332,
+      "pct_to_aum": 0.0287,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE455K01017",
+      "report_date": "2025-07-31",
+      "quantity": 21500,
+      "market_value_lakhs": 1474.513,
+      "pct_to_aum": 0.0179,
+      "industry": "Industrial Products"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE245A01021",
+      "report_date": "2025-07-31",
+      "quantity": 322650,
+      "market_value_lakhs": 1463.5404,
+      "pct_to_aum": 0.0178,
+      "industry": "Power"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE066F01020",
+      "report_date": "2025-07-31",
+      "quantity": 29400,
+      "market_value_lakhs": 1447.3179,
+      "pct_to_aum": 0.0176,
+      "industry": "Aerospace & Defense"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE154A01025",
+      "report_date": "2025-07-31",
+      "quantity": 289600,
+      "market_value_lakhs": 1434.5336,
+      "pct_to_aum": 0.0174,
+      "industry": "Diversified FMCG"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE030A01027",
+      "report_date": "2025-07-31",
+      "quantity": 50700,
+      "market_value_lakhs": 1371.7646,
+      "pct_to_aum": 0.0167,
+      "industry": "Diversified FMCG"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE018A01030",
+      "report_date": "2025-07-31",
+      "quantity": 34200,
+      "market_value_lakhs": 1304.73,
+      "pct_to_aum": 0.0159,
+      "industry": "Construction"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE646L01027",
+      "report_date": "2025-07-31",
+      "quantity": 28200,
+      "market_value_lakhs": 1261.1604,
+      "pct_to_aum": 0.0153,
+      "industry": "Transport Services"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE335Y01020",
+      "report_date": "2025-07-31",
+      "quantity": 121625,
+      "market_value_lakhs": 1201.2293,
+      "pct_to_aum": 0.0146,
+      "industry": "Leisure Services"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE296A01024",
+      "report_date": "2025-07-31",
+      "quantity": 17125,
+      "market_value_lakhs": 1165.6902,
+      "pct_to_aum": 0.0142,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE776C01039",
+      "report_date": "2025-07-31",
+      "quantity": 1068750,
+      "market_value_lakhs": 1087.2394,
+      "pct_to_aum": 0.0132,
+      "industry": "Transport Infrastructure"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE721A01013",
+      "report_date": "2025-07-31",
+      "quantity": 35100,
+      "market_value_lakhs": 1029.1145,
+      "pct_to_aum": 0.0125,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE935A01035",
+      "report_date": "2025-07-31",
+      "quantity": 69600,
+      "market_value_lakhs": 1022.25,
+      "pct_to_aum": 0.0124,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE467B01029",
+      "report_date": "2025-07-31",
+      "quantity": 21000,
+      "market_value_lakhs": 920.9235,
+      "pct_to_aum": 0.0112,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE022Q01020",
+      "report_date": "2025-07-31",
+      "quantity": 465000,
+      "market_value_lakhs": 893.3115,
+      "pct_to_aum": 0.0109,
+      "industry": "Capital Markets"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE151A01013",
+      "report_date": "2025-07-31",
+      "quantity": 43000,
+      "market_value_lakhs": 856.0225,
+      "pct_to_aum": 0.0104,
+      "industry": "Telecom - Services"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE00R701025",
+      "report_date": "2025-07-31",
+      "quantity": 38500,
+      "market_value_lakhs": 712.4618,
+      "pct_to_aum": 0.0087,
+      "industry": "Cement & Cement Products"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE114A01011",
+      "report_date": "2025-07-31",
+      "quantity": 460000,
+      "market_value_lakhs": 703.984,
+      "pct_to_aum": 0.0086,
+      "industry": "Ferrous Metals"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE585B01010",
+      "report_date": "2025-07-31",
+      "quantity": 5350,
+      "market_value_lakhs": 701.6953,
+      "pct_to_aum": 0.0085,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE298A01020",
+      "report_date": "2025-07-31",
+      "quantity": 17400,
+      "market_value_lakhs": 670.3089,
+      "pct_to_aum": 0.0081,
+      "industry": "Industrial Products"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE112L01020",
+      "report_date": "2025-07-31",
+      "quantity": 31200,
+      "market_value_lakhs": 661.0968,
+      "pct_to_aum": 0.008,
+      "industry": "Healthcare Services"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE111A01025",
+      "report_date": "2025-07-31",
+      "quantity": 63000,
+      "market_value_lakhs": 655.4835,
+      "pct_to_aum": 0.008,
+      "industry": "Transport Services"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE257A01026",
+      "report_date": "2025-07-31",
+      "quantity": 207375,
+      "market_value_lakhs": 653.7497,
+      "pct_to_aum": 0.0079,
+      "industry": "Electrical Equipment"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE094A01015",
+      "report_date": "2025-07-31",
+      "quantity": 166050,
+      "market_value_lakhs": 651.3311,
+      "pct_to_aum": 0.0079,
+      "industry": "Petroleum Products"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE280A01028",
+      "report_date": "2025-07-31",
+      "quantity": 17675,
+      "market_value_lakhs": 611.3694,
+      "pct_to_aum": 0.0074,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE020B01018",
+      "report_date": "2025-07-31",
+      "quantity": 94000,
+      "market_value_lakhs": 605.595,
+      "pct_to_aum": 0.0074,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE062A01020",
+      "report_date": "2025-07-31",
+      "quantity": 69000,
+      "market_value_lakhs": 601.956,
+      "pct_to_aum": 0.0073,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE115A01026",
+      "report_date": "2025-07-31",
+      "quantity": 76000,
+      "market_value_lakhs": 583.11,
+      "pct_to_aum": 0.0071,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE081A01020",
+      "report_date": "2025-07-31",
+      "quantity": 352000,
+      "market_value_lakhs": 581.9616,
+      "pct_to_aum": 0.0071,
+      "industry": "Ferrous Metals"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE540L01014",
+      "report_date": "2025-07-31",
+      "quantity": 10800,
+      "market_value_lakhs": 573.426,
+      "pct_to_aum": 0.007,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE749A01030",
+      "report_date": "2025-07-31",
+      "quantity": 56875,
+      "market_value_lakhs": 562.0672,
+      "pct_to_aum": 0.0068,
+      "industry": "Ferrous Metals"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE238A01034",
+      "report_date": "2025-07-31",
+      "quantity": 47500,
+      "market_value_lakhs": 553.8975,
+      "pct_to_aum": 0.0067,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE171A01029",
+      "report_date": "2025-07-31",
+      "quantity": 275000,
+      "market_value_lakhs": 553.8225,
+      "pct_to_aum": 0.0067,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE669E01016",
+      "report_date": "2025-07-31",
+      "quantity": 3320000,
+      "market_value_lakhs": 540.164,
+      "pct_to_aum": 0.0066,
+      "industry": "Telecom - Services"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE213A01029",
+      "report_date": "2025-07-31",
+      "quantity": 157850,
+      "market_value_lakhs": 527.5347,
+      "pct_to_aum": 0.0064,
+      "industry": "Oil"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE263A01024",
+      "report_date": "2025-07-31",
+      "quantity": 165300,
+      "market_value_lakhs": 522.4307,
+      "pct_to_aum": 0.0063,
+      "industry": "Aerospace & Defense"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE121J01017",
+      "report_date": "2025-07-31",
+      "quantity": 119000,
+      "market_value_lakhs": 515.4485,
+      "pct_to_aum": 0.0063,
+      "industry": "Telecom - Services"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE849A01020",
+      "report_date": "2025-07-31",
+      "quantity": 8800,
+      "market_value_lakhs": 513.832,
+      "pct_to_aum": 0.0062,
+      "industry": "Retailing"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE545U01014",
+      "report_date": "2025-07-31",
+      "quantity": 226800,
+      "market_value_lakhs": 494.6054,
+      "pct_to_aum": 0.006,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE101A01026",
+      "report_date": "2025-07-31",
+      "quantity": 16450,
+      "market_value_lakhs": 478.3331,
+      "pct_to_aum": 0.0058,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE002S01010",
+      "report_date": "2025-07-31",
+      "quantity": 25200,
+      "market_value_lakhs": 471.1266,
+      "pct_to_aum": 0.0057,
+      "industry": "Gas"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE095A01012",
+      "report_date": "2025-07-31",
+      "quantity": 30000,
+      "market_value_lakhs": 428.34,
+      "pct_to_aum": 0.0052,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE113A01013",
+      "report_date": "2025-07-31",
+      "quantity": 59800,
+      "market_value_lakhs": 426.4338,
+      "pct_to_aum": 0.0052,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE463A01038",
+      "report_date": "2025-07-31",
+      "quantity": 76560,
+      "market_value_lakhs": 424.8314,
+      "pct_to_aum": 0.0052,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE476A01022",
+      "report_date": "2025-07-31",
+      "quantity": 357750,
+      "market_value_lakhs": 410.375,
+      "pct_to_aum": 0.005,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE406A01037",
+      "report_date": "2025-07-31",
+      "quantity": 27500,
+      "market_value_lakhs": 394.3913,
+      "pct_to_aum": 0.0048,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE742F01042",
+      "report_date": "2025-07-31",
+      "quantity": 24000,
+      "market_value_lakhs": 376.776,
+      "pct_to_aum": 0.0046,
+      "industry": "Transport Infrastructure"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE160A01022",
+      "report_date": "2025-07-31",
+      "quantity": 296000,
+      "market_value_lakhs": 366.892,
+      "pct_to_aum": 0.0045,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE129A01019",
+      "report_date": "2025-07-31",
+      "quantity": 150975,
+      "market_value_lakhs": 363.8045,
+      "pct_to_aum": 0.0044,
+      "industry": "Gas"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE733E01010",
+      "report_date": "2025-07-31",
+      "quantity": 84000,
+      "market_value_lakhs": 349.44,
+      "pct_to_aum": 0.0042,
+      "industry": "Power"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE299U01018",
+      "report_date": "2025-07-31",
+      "quantity": 73800,
+      "market_value_lakhs": 333.1332,
+      "pct_to_aum": 0.004,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE176B01034",
+      "report_date": "2025-07-31",
+      "quantity": 17500,
+      "market_value_lakhs": 323.7238,
+      "pct_to_aum": 0.0039,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE498L01015",
+      "report_date": "2025-07-31",
+      "quantity": 174018,
+      "market_value_lakhs": 313.041,
+      "pct_to_aum": 0.0038,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE021A01026",
+      "report_date": "2025-07-31",
+      "quantity": 9800,
+      "market_value_lakhs": 302.2761,
+      "pct_to_aum": 0.0037,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE043D01016",
+      "report_date": "2025-07-31",
+      "quantity": 255000,
+      "market_value_lakhs": 287.3085,
+      "pct_to_aum": 0.0035,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE158A01026",
+      "report_date": "2025-07-31",
+      "quantity": 4950,
+      "market_value_lakhs": 271.6783,
+      "pct_to_aum": 0.0033,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE356A01018",
+      "report_date": "2025-07-31",
+      "quantity": 9075,
+      "market_value_lakhs": 262.4944,
+      "pct_to_aum": 0.0032,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE854D01024",
+      "report_date": "2025-07-31",
+      "quantity": 17500,
+      "market_value_lakhs": 247.3275,
+      "pct_to_aum": 0.003,
+      "industry": "Beverages"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE079A01024",
+      "report_date": "2025-07-31",
+      "quantity": 36000,
+      "market_value_lakhs": 244.782,
+      "pct_to_aum": 0.003,
+      "industry": "Cement & Cement Products"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE242A01010",
+      "report_date": "2025-07-31",
+      "quantity": 126750,
+      "market_value_lakhs": 230.2667,
+      "pct_to_aum": 0.0028,
+      "industry": "Petroleum Products"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE647A01010",
+      "report_date": "2025-07-31",
+      "quantity": 8250,
+      "market_value_lakhs": 218.2043,
+      "pct_to_aum": 0.0027,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE522F01014",
+      "report_date": "2025-07-31",
+      "quantity": 39900,
+      "market_value_lakhs": 208.3578,
+      "pct_to_aum": 0.0025,
+      "industry": "Consumable Fuels"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE089A01023",
+      "report_date": "2025-07-31",
+      "quantity": 2875,
+      "market_value_lakhs": 194.0769,
+      "pct_to_aum": 0.0024,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE059A01026",
+      "report_date": "2025-07-31",
+      "quantity": 12350,
+      "market_value_lakhs": 190.7211,
+      "pct_to_aum": 0.0023,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE376G01013",
+      "report_date": "2025-07-31",
+      "quantity": 52500,
+      "market_value_lakhs": 190.2338,
+      "pct_to_aum": 0.0023,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE047A01021",
+      "report_date": "2025-07-31",
+      "quantity": 6750,
+      "market_value_lakhs": 187.4306,
+      "pct_to_aum": 0.0023,
+      "industry": "Cement & Cement Products"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE397D01024",
+      "report_date": "2025-07-31",
+      "quantity": 11400,
+      "market_value_lakhs": 170.0367,
+      "pct_to_aum": 0.0021,
+      "industry": "Telecom - Services"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE584A01023",
+      "report_date": "2025-07-31",
+      "quantity": 67500,
+      "market_value_lakhs": 163.0868,
+      "pct_to_aum": 0.002,
+      "industry": "Minerals & Mining"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE437A01024",
+      "report_date": "2025-07-31",
+      "quantity": 2375,
+      "market_value_lakhs": 157.1134,
+      "pct_to_aum": 0.0019,
+      "industry": "Healthcare Services"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE119A01028",
+      "report_date": "2025-07-31",
+      "quantity": 30400,
+      "market_value_lakhs": 146.1784,
+      "pct_to_aum": 0.0018,
+      "industry": "Agricultural Food & other Products"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE010B01027",
+      "report_date": "2025-07-31",
+      "quantity": 11700,
+      "market_value_lakhs": 145.9224,
+      "pct_to_aum": 0.0018,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE127D01025",
+      "report_date": "2025-07-31",
+      "quantity": 2700,
+      "market_value_lakhs": 111.0848,
+      "pct_to_aum": 0.0013,
+      "industry": "Capital Markets"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE271C01023",
+      "report_date": "2025-07-31",
+      "quantity": 12375,
+      "market_value_lakhs": 110.0323,
+      "pct_to_aum": 0.0013,
+      "industry": "Realty"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE423A01024",
+      "report_date": "2025-07-31",
+      "quantity": 3300,
+      "market_value_lakhs": 104.5902,
+      "pct_to_aum": 0.0013,
+      "industry": "Metals & Minerals Trading"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE669C01036",
+      "report_date": "2025-07-31",
+      "quantity": 6000,
+      "market_value_lakhs": 93.264,
+      "pct_to_aum": 0.0011,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE140A01024",
+      "report_date": "2025-07-31",
+      "quantity": 7500,
+      "market_value_lakhs": 78.1125,
+      "pct_to_aum": 0.0009,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE029A01011",
+      "report_date": "2025-07-31",
+      "quantity": 21600,
+      "market_value_lakhs": 75.6108,
+      "pct_to_aum": 0.0009,
+      "industry": "Petroleum Products"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE531E01026",
+      "report_date": "2025-07-31",
+      "quantity": 18550,
+      "market_value_lakhs": 59.6568,
+      "pct_to_aum": 0.0007,
+      "industry": "Non - Ferrous Metals"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE214T01019",
+      "report_date": "2025-07-31",
+      "quantity": 1050,
+      "market_value_lakhs": 59.4106,
+      "pct_to_aum": 0.0007,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE347G01014",
+      "report_date": "2025-07-31",
+      "quantity": 15000,
+      "market_value_lakhs": 55.275,
+      "pct_to_aum": 0.0007,
+      "industry": "Gas"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE075A01022",
+      "report_date": "2025-07-31",
+      "quantity": 10500,
+      "market_value_lakhs": 54.81,
+      "pct_to_aum": 0.0007,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE491A01021",
+      "report_date": "2025-07-31",
+      "quantity": 30000,
+      "market_value_lakhs": 51.681,
+      "pct_to_aum": 0.0006,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE414G01012",
+      "report_date": "2025-07-31",
+      "quantity": 2200,
+      "market_value_lakhs": 40.4382,
+      "pct_to_aum": 0.0005,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE769A01020",
+      "report_date": "2025-07-31",
+      "quantity": 5000,
+      "market_value_lakhs": 37.4425,
+      "pct_to_aum": 0.0005,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE092A01019",
+      "report_date": "2025-07-31",
+      "quantity": 2200,
+      "market_value_lakhs": 24.6323,
+      "pct_to_aum": 0.0003,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE012A01025",
+      "report_date": "2025-07-31",
+      "quantity": 900,
+      "market_value_lakhs": 23.3159,
+      "pct_to_aum": 0.0003,
+      "industry": "Cement & Cement Products"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE787D01026",
+      "report_date": "2025-07-31",
+      "quantity": 600,
+      "market_value_lakhs": 19.9398,
+      "pct_to_aum": 0.0002,
+      "industry": "Auto Components"
+    },
+    {
+      "scheme_short_code": "BFARB",
+      "isin": "INE180A01020",
+      "report_date": "2025-07-31",
+      "quantity": 800,
+      "market_value_lakhs": 8.896,
+      "pct_to_aum": 0.0001,
+      "industry": "Insurance"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE040A01034",
+      "report_date": "2025-07-31",
+      "quantity": 520568,
+      "market_value_lakhs": 8411.0775,
+      "pct_to_aum": 0.0682,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE467B01029",
+      "report_date": "2025-07-31",
+      "quantity": 121963,
+      "market_value_lakhs": 5348.5044,
+      "pct_to_aum": 0.0434,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE090A01021",
+      "report_date": "2025-07-31",
+      "quantity": 381249,
+      "market_value_lakhs": 4631.7941,
+      "pct_to_aum": 0.0376,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE002A01018",
+      "report_date": "2025-07-31",
+      "quantity": 147700,
+      "market_value_lakhs": 4447.0255,
+      "pct_to_aum": 0.0361,
+      "industry": "Petroleum Products"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE030A01027",
+      "report_date": "2025-07-31",
+      "quantity": 138675,
+      "market_value_lakhs": 3752.0601,
+      "pct_to_aum": 0.0304,
+      "industry": "Diversified FMCG"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE009A01021",
+      "report_date": "2025-07-31",
+      "quantity": 141284,
+      "market_value_lakhs": 2639.5383,
+      "pct_to_aum": 0.0214,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE018A01030",
+      "report_date": "2025-07-31",
+      "quantity": 66963,
+      "market_value_lakhs": 2554.6385,
+      "pct_to_aum": 0.0207,
+      "industry": "Construction"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE216A01030",
+      "report_date": "2025-07-31",
+      "quantity": 41400,
+      "market_value_lakhs": 2394.7623,
+      "pct_to_aum": 0.0194,
+      "industry": "Food Products"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE237A01028",
+      "report_date": "2025-07-31",
+      "quantity": 129715,
+      "market_value_lakhs": 2345.1175,
+      "pct_to_aum": 0.019,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE397D01024",
+      "report_date": "2025-07-31",
+      "quantity": 149224,
+      "market_value_lakhs": 2225.7506,
+      "pct_to_aum": 0.018,
+      "industry": "Telecom - Services"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE585B01010",
+      "report_date": "2025-07-31",
+      "quantity": 15776,
+      "market_value_lakhs": 2069.1486,
+      "pct_to_aum": 0.0168,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE154A01025",
+      "report_date": "2025-07-31",
+      "quantity": 417539,
+      "market_value_lakhs": 2068.2794,
+      "pct_to_aum": 0.0168,
+      "industry": "Diversified FMCG"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE044A01036",
+      "report_date": "2025-07-31",
+      "quantity": 115046,
+      "market_value_lakhs": 1978.0434,
+      "pct_to_aum": 0.016,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE062A01020",
+      "report_date": "2025-07-31",
+      "quantity": 215687,
+      "market_value_lakhs": 1881.6534,
+      "pct_to_aum": 0.0153,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE192A01025",
+      "report_date": "2025-07-31",
+      "quantity": 156459,
+      "market_value_lakhs": 1860.2193,
+      "pct_to_aum": 0.0151,
+      "industry": "Agricultural Food & other Products"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE101A01026",
+      "report_date": "2025-07-31",
+      "quantity": 62692,
+      "market_value_lakhs": 1822.958,
+      "pct_to_aum": 0.0148,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE047A01021",
+      "report_date": "2025-07-31",
+      "quantity": 65280,
+      "market_value_lakhs": 1812.6624,
+      "pct_to_aum": 0.0147,
+      "industry": "Cement & Cement Products"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE540L01014",
+      "report_date": "2025-07-31",
+      "quantity": 33568,
+      "market_value_lakhs": 1782.293,
+      "pct_to_aum": 0.0144,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE647A01010",
+      "report_date": "2025-07-31",
+      "quantity": 67383,
+      "market_value_lakhs": 1782.213,
+      "pct_to_aum": 0.0144,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE481G01011",
+      "report_date": "2025-07-31",
+      "quantity": 14851,
+      "market_value_lakhs": 1765.3681,
+      "pct_to_aum": 0.0143,
+      "industry": "Cement & Cement Products"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE155A01022",
+      "report_date": "2025-07-31",
+      "quantity": 147174,
+      "market_value_lakhs": 1702.2881,
+      "pct_to_aum": 0.0138,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE019A01038",
+      "report_date": "2025-07-31",
+      "quantity": 177610,
+      "market_value_lakhs": 1648.6648,
+      "pct_to_aum": 0.0134,
+      "industry": "Ferrous Metals"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE686F01025",
+      "report_date": "2025-07-31",
+      "quantity": 80528,
+      "market_value_lakhs": 1622.6392,
+      "pct_to_aum": 0.0132,
+      "industry": "Beverages"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE038A01020",
+      "report_date": "2025-07-31",
+      "quantity": 236022,
+      "market_value_lakhs": 1580.4033,
+      "pct_to_aum": 0.0128,
+      "industry": "Non - Ferrous Metals"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE917I01010",
+      "report_date": "2025-07-31",
+      "quantity": 16154,
+      "market_value_lakhs": 1561.1549,
+      "pct_to_aum": 0.0127,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE196A01026",
+      "report_date": "2025-07-31",
+      "quantity": 187645,
+      "market_value_lakhs": 1264.9149,
+      "pct_to_aum": 0.0103,
+      "industry": "Agricultural Food & other Products"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE168P01015",
+      "report_date": "2025-07-31",
+      "quantity": 95097,
+      "market_value_lakhs": 1242.0619,
+      "pct_to_aum": 0.0101,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE548C01032",
+      "report_date": "2025-07-31",
+      "quantity": 147178,
+      "market_value_lakhs": 1202.3707,
+      "pct_to_aum": 0.0097,
+      "industry": "Personal Products"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE494B01023",
+      "report_date": "2025-07-31",
+      "quantity": 45733,
+      "market_value_lakhs": 1157.5022,
+      "pct_to_aum": 0.0094,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE016A01026",
+      "report_date": "2025-07-31",
+      "quantity": 181613,
+      "market_value_lakhs": 1154.5138,
+      "pct_to_aum": 0.0094,
+      "industry": "Personal Products"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE763G01038",
+      "report_date": "2025-07-31",
+      "quantity": 133386,
+      "market_value_lakhs": 1031.2072,
+      "pct_to_aum": 0.0084,
+      "industry": "Capital Markets"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE121J01017",
+      "report_date": "2025-07-31",
+      "quantity": 232557,
+      "market_value_lakhs": 1007.3206,
+      "pct_to_aum": 0.0082,
+      "industry": "Telecom - Services"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE239A01024",
+      "report_date": "2025-07-31",
+      "quantity": 39619,
+      "market_value_lakhs": 973.1813,
+      "pct_to_aum": 0.0079,
+      "industry": "Food Products"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE095A01012",
+      "report_date": "2025-07-31",
+      "quantity": 66548,
+      "market_value_lakhs": 950.1723,
+      "pct_to_aum": 0.0077,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE758T01015",
+      "report_date": "2025-07-31",
+      "quantity": 405624,
+      "market_value_lakhs": 930.7043,
+      "pct_to_aum": 0.0075,
+      "industry": "Retailing"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE058A01010",
+      "report_date": "2025-07-31",
+      "quantity": 13888,
+      "market_value_lakhs": 917.8857,
+      "pct_to_aum": 0.0074,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE179A01014",
+      "report_date": "2025-07-31",
+      "quantity": 5295,
+      "market_value_lakhs": 895.0959,
+      "pct_to_aum": 0.0073,
+      "industry": "Personal Products"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE245A01021",
+      "report_date": "2025-07-31",
+      "quantity": 196671,
+      "market_value_lakhs": 892.0997,
+      "pct_to_aum": 0.0072,
+      "industry": "Power"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE296A01024",
+      "report_date": "2025-07-31",
+      "quantity": 12000,
+      "market_value_lakhs": 816.834,
+      "pct_to_aum": 0.0066,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE021A01026",
+      "report_date": "2025-07-31",
+      "quantity": 24808,
+      "market_value_lakhs": 765.1904,
+      "pct_to_aum": 0.0062,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE733E01010",
+      "report_date": "2025-07-31",
+      "quantity": 175824,
+      "market_value_lakhs": 731.4278,
+      "pct_to_aum": 0.0059,
+      "industry": "Power"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE361B01024",
+      "report_date": "2025-07-31",
+      "quantity": 13406,
+      "market_value_lakhs": 660.0042,
+      "pct_to_aum": 0.0054,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE176B01034",
+      "report_date": "2025-07-31",
+      "quantity": 34316,
+      "market_value_lakhs": 634.7945,
+      "pct_to_aum": 0.0051,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE213A01029",
+      "report_date": "2025-07-31",
+      "quantity": 151366,
+      "market_value_lakhs": 505.8652,
+      "pct_to_aum": 0.0041,
+      "industry": "Oil"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE0UOS01011",
+      "report_date": "2025-07-31",
+      "quantity": 13888,
+      "market_value_lakhs": 497.7487,
+      "pct_to_aum": 0.004,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE669C01036",
+      "report_date": "2025-07-31",
+      "quantity": 29400,
+      "market_value_lakhs": 456.9936,
+      "pct_to_aum": 0.0037,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE238A01034",
+      "report_date": "2025-07-31",
+      "quantity": 38424,
+      "market_value_lakhs": 448.0623,
+      "pct_to_aum": 0.0036,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE075A01022",
+      "report_date": "2025-07-31",
+      "quantity": 83431,
+      "market_value_lakhs": 435.5098,
+      "pct_to_aum": 0.0035,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE437A01024",
+      "report_date": "2025-07-31",
+      "quantity": 5713,
+      "market_value_lakhs": 377.9321,
+      "pct_to_aum": 0.0031,
+      "industry": "Healthcare Services"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE123W01016",
+      "report_date": "2025-07-31",
+      "quantity": 18878,
+      "market_value_lakhs": 331.054,
+      "pct_to_aum": 0.0027,
+      "industry": "Insurance"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE059A01026",
+      "report_date": "2025-07-31",
+      "quantity": 19931,
+      "market_value_lakhs": 307.7944,
+      "pct_to_aum": 0.0025,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE117A01022",
+      "report_date": "2025-07-31",
+      "quantity": 3815,
+      "market_value_lakhs": 301.2648,
+      "pct_to_aum": 0.0024,
+      "industry": "Electrical Equipment"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE089A01023",
+      "report_date": "2025-07-31",
+      "quantity": 3699,
+      "market_value_lakhs": 249.701,
+      "pct_to_aum": 0.002,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE263A01024",
+      "report_date": "2025-07-31",
+      "quantity": 44955,
+      "market_value_lakhs": 142.0803,
+      "pct_to_aum": 0.0012,
+      "industry": "Aerospace & Defense"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE029A01011",
+      "report_date": "2025-07-31",
+      "quantity": 37634,
+      "market_value_lakhs": 131.7378,
+      "pct_to_aum": 0.0011,
+      "industry": "Petroleum Products"
+    },
+    {
+      "scheme_short_code": "BFBAF",
+      "isin": "INE192A20017",
+      "report_date": "2025-07-31",
+      "quantity": 6017,
+      "market_value_lakhs": 22.3201,
+      "pct_to_aum": 0.0002,
+      "industry": "Agricultural Food & other Products"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE040A01034",
+      "report_date": "2025-07-31",
+      "quantity": 1374323,
+      "market_value_lakhs": 22205.6239,
+      "pct_to_aum": 0.0668,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE090A01021",
+      "report_date": "2025-07-31",
+      "quantity": 1356879,
+      "market_value_lakhs": 16484.723,
+      "pct_to_aum": 0.0496,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE002A01018",
+      "report_date": "2025-07-31",
+      "quantity": 481727,
+      "market_value_lakhs": 14504.0774,
+      "pct_to_aum": 0.0436,
+      "industry": "Petroleum Products"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE101A01026",
+      "report_date": "2025-07-31",
+      "quantity": 452202,
+      "market_value_lakhs": 13149.1298,
+      "pct_to_aum": 0.0395,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE030A01027",
+      "report_date": "2025-07-31",
+      "quantity": 473661,
+      "market_value_lakhs": 12815.6088,
+      "pct_to_aum": 0.0385,
+      "industry": "Diversified FMCG"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE397D01024",
+      "report_date": "2025-07-31",
+      "quantity": 738314,
+      "market_value_lakhs": 11012.3225,
+      "pct_to_aum": 0.0331,
+      "industry": "Telecom - Services"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE361B01024",
+      "report_date": "2025-07-31",
+      "quantity": 204166,
+      "market_value_lakhs": 10051.5005,
+      "pct_to_aum": 0.0302,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE467B01029",
+      "report_date": "2025-07-31",
+      "quantity": 225653,
+      "market_value_lakhs": 9895.6738,
+      "pct_to_aum": 0.0298,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE659A01023",
+      "report_date": "2025-07-31",
+      "quantity": 879488,
+      "market_value_lakhs": 8239.4833,
+      "pct_to_aum": 0.0248,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE176B01034",
+      "report_date": "2025-07-31",
+      "quantity": 406393,
+      "market_value_lakhs": 7517.6609,
+      "pct_to_aum": 0.0226,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE769A01020",
+      "report_date": "2025-07-31",
+      "quantity": 997852,
+      "market_value_lakhs": 7472.4147,
+      "pct_to_aum": 0.0225,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE237A01028",
+      "report_date": "2025-07-31",
+      "quantity": 372310,
+      "market_value_lakhs": 6730.9925,
+      "pct_to_aum": 0.0202,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE405E01023",
+      "report_date": "2025-07-31",
+      "quantity": 611493,
+      "market_value_lakhs": 6365.6421,
+      "pct_to_aum": 0.0191,
+      "industry": "Auto Components"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE758T01015",
+      "report_date": "2025-07-31",
+      "quantity": 2772803,
+      "market_value_lakhs": 6362.1965,
+      "pct_to_aum": 0.0191,
+      "industry": "Retailing"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE123W01016",
+      "report_date": "2025-07-31",
+      "quantity": 358383,
+      "market_value_lakhs": 6284.7835,
+      "pct_to_aum": 0.0189,
+      "industry": "Insurance"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE200A01026",
+      "report_date": "2025-07-31",
+      "quantity": 389920,
+      "market_value_lakhs": 6180.427,
+      "pct_to_aum": 0.0186,
+      "industry": "Electrical Equipment"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE058A01010",
+      "report_date": "2025-07-31",
+      "quantity": 92439,
+      "market_value_lakhs": 6109.4784,
+      "pct_to_aum": 0.0184,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE062A01020",
+      "report_date": "2025-07-31",
+      "quantity": 678573,
+      "market_value_lakhs": 5919.8709,
+      "pct_to_aum": 0.0178,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE239A01024",
+      "report_date": "2025-07-31",
+      "quantity": 232040,
+      "market_value_lakhs": 5699.7145,
+      "pct_to_aum": 0.0171,
+      "industry": "Food Products"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE332A01027",
+      "report_date": "2025-07-31",
+      "quantity": 2179448,
+      "market_value_lakhs": 5681.385,
+      "pct_to_aum": 0.0171,
+      "industry": "Leisure Services"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE07Y701011",
+      "report_date": "2025-07-31",
+      "quantity": 42006,
+      "market_value_lakhs": 4875.6784,
+      "pct_to_aum": 0.0147,
+      "industry": "Electrical Equipment"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE917I01010",
+      "report_date": "2025-07-31",
+      "quantity": 50071,
+      "market_value_lakhs": 4838.9616,
+      "pct_to_aum": 0.0146,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE956G01038",
+      "report_date": "2025-07-31",
+      "quantity": 353594,
+      "market_value_lakhs": 4747.5298,
+      "pct_to_aum": 0.0143,
+      "industry": "Other Utilities"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE168P01015",
+      "report_date": "2025-07-31",
+      "quantity": 329238,
+      "market_value_lakhs": 4300.1775,
+      "pct_to_aum": 0.0129,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE217B01036",
+      "report_date": "2025-07-31",
+      "quantity": 284291,
+      "market_value_lakhs": 4212.624,
+      "pct_to_aum": 0.0127,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE797F01020",
+      "report_date": "2025-07-31",
+      "quantity": 690058,
+      "market_value_lakhs": 4132.0673,
+      "pct_to_aum": 0.0124,
+      "industry": "Leisure Services"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE540L01014",
+      "report_date": "2025-07-31",
+      "quantity": 71485,
+      "market_value_lakhs": 3795.4961,
+      "pct_to_aum": 0.0114,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE075A01022",
+      "report_date": "2025-07-31",
+      "quantity": 726431,
+      "market_value_lakhs": 3791.9698,
+      "pct_to_aum": 0.0114,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE745G01035",
+      "report_date": "2025-07-31",
+      "quantity": 87837,
+      "market_value_lakhs": 3767.9438,
+      "pct_to_aum": 0.0113,
+      "industry": "Capital Markets"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE739E01017",
+      "report_date": "2025-07-31",
+      "quantity": 40443,
+      "market_value_lakhs": 3612.8339,
+      "pct_to_aum": 0.0109,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE191A01027",
+      "report_date": "2025-07-31",
+      "quantity": 258061,
+      "market_value_lakhs": 3609.8863,
+      "pct_to_aum": 0.0109,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE686F01025",
+      "report_date": "2025-07-31",
+      "quantity": 178315,
+      "market_value_lakhs": 3593.0473,
+      "pct_to_aum": 0.0108,
+      "industry": "Beverages"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE559R01029",
+      "report_date": "2025-07-31",
+      "quantity": 571616,
+      "market_value_lakhs": 3592.8924,
+      "pct_to_aum": 0.0108,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE322A01010",
+      "report_date": "2025-07-31",
+      "quantity": 45383,
+      "market_value_lakhs": 3551.0836,
+      "pct_to_aum": 0.0107,
+      "industry": "Personal Products"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE596I01012",
+      "report_date": "2025-07-31",
+      "quantity": 77451,
+      "market_value_lakhs": 3511.7832,
+      "pct_to_aum": 0.0106,
+      "industry": "Capital Markets"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE388Y01029",
+      "report_date": "2025-07-31",
+      "quantity": 1769774,
+      "market_value_lakhs": 3415.4868,
+      "pct_to_aum": 0.0103,
+      "industry": "Retailing"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE0DK501011",
+      "report_date": "2025-07-31",
+      "quantity": 1895735,
+      "market_value_lakhs": 3337.4415,
+      "pct_to_aum": 0.01,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE0UOS01011",
+      "report_date": "2025-07-31",
+      "quantity": 92459,
+      "market_value_lakhs": 3313.7491,
+      "pct_to_aum": 0.01,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE933S01016",
+      "report_date": "2025-07-31",
+      "quantity": 105129,
+      "market_value_lakhs": 3095.8914,
+      "pct_to_aum": 0.0093,
+      "industry": "Retailing"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE794A01010",
+      "report_date": "2025-07-31",
+      "quantity": 35213,
+      "market_value_lakhs": 3084.0778,
+      "pct_to_aum": 0.0093,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE296A01024",
+      "report_date": "2025-07-31",
+      "quantity": 44045,
+      "market_value_lakhs": 2998.1211,
+      "pct_to_aum": 0.009,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE494B01023",
+      "report_date": "2025-07-31",
+      "quantity": 115963,
+      "market_value_lakhs": 2935.0235,
+      "pct_to_aum": 0.0088,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE671H01015",
+      "report_date": "2025-07-31",
+      "quantity": 158519,
+      "market_value_lakhs": 2853.659,
+      "pct_to_aum": 0.0086,
+      "industry": "Realty"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE647A01010",
+      "report_date": "2025-07-31",
+      "quantity": 102397,
+      "market_value_lakhs": 2708.2983,
+      "pct_to_aum": 0.0081,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE398R01022",
+      "report_date": "2025-07-31",
+      "quantity": 327396,
+      "market_value_lakhs": 2644.7049,
+      "pct_to_aum": 0.008,
+      "industry": "Healthcare Services"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE155A01022",
+      "report_date": "2025-07-31",
+      "quantity": 219146,
+      "market_value_lakhs": 2534.7522,
+      "pct_to_aum": 0.0076,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE212H01026",
+      "report_date": "2025-07-31",
+      "quantity": 52504,
+      "market_value_lakhs": 2426.3936,
+      "pct_to_aum": 0.0073,
+      "industry": "Industrial Products"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE935N01020",
+      "report_date": "2025-07-31",
+      "quantity": 20010,
+      "market_value_lakhs": 2422.5006,
+      "pct_to_aum": 0.0073,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE003A01024",
+      "report_date": "2025-07-31",
+      "quantity": 33808,
+      "market_value_lakhs": 2411.4908,
+      "pct_to_aum": 0.0073,
+      "industry": "Electrical Equipment"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE825V01034",
+      "report_date": "2025-07-31",
+      "quantity": 205886,
+      "market_value_lakhs": 2368.8214,
+      "pct_to_aum": 0.0071,
+      "industry": "Retailing"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE671A01010",
+      "report_date": "2025-07-31",
+      "quantity": 4348,
+      "market_value_lakhs": 2367.7882,
+      "pct_to_aum": 0.0071,
+      "industry": "Industrial Manufacturing"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE117A01022",
+      "report_date": "2025-07-31",
+      "quantity": 29363,
+      "market_value_lakhs": 2318.7521,
+      "pct_to_aum": 0.007,
+      "industry": "Electrical Equipment"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE510A01028",
+      "report_date": "2025-07-31",
+      "quantity": 872021,
+      "market_value_lakhs": 2285.131,
+      "pct_to_aum": 0.0069,
+      "industry": "Construction"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE999A01023",
+      "report_date": "2025-07-31",
+      "quantity": 222728,
+      "market_value_lakhs": 2141.8638,
+      "pct_to_aum": 0.0064,
+      "industry": "Industrial Products"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE00M201021",
+      "report_date": "2025-07-31",
+      "quantity": 291262,
+      "market_value_lakhs": 2003.1544,
+      "pct_to_aum": 0.006,
+      "industry": "Construction"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE536A01023",
+      "report_date": "2025-07-31",
+      "quantity": 74963,
+      "market_value_lakhs": 1940.4547,
+      "pct_to_aum": 0.0058,
+      "industry": "Industrial Products"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE418L01021",
+      "report_date": "2025-07-31",
+      "quantity": 209497,
+      "market_value_lakhs": 1899.8235,
+      "pct_to_aum": 0.0057,
+      "industry": "Entertainment"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE474Q01031",
+      "report_date": "2025-07-31",
+      "quantity": 135814,
+      "market_value_lakhs": 1686.6741,
+      "pct_to_aum": 0.0051,
+      "industry": "Healthcare Services"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE393P01035",
+      "report_date": "2025-07-31",
+      "quantity": 183354,
+      "market_value_lakhs": 1632.034,
+      "pct_to_aum": 0.0049,
+      "industry": "Food Products"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE893J01029",
+      "report_date": "2025-07-31",
+      "quantity": 190175,
+      "market_value_lakhs": 1588.6269,
+      "pct_to_aum": 0.0048,
+      "industry": "Industrial Products"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE839M01018",
+      "report_date": "2025-07-31",
+      "quantity": 194360,
+      "market_value_lakhs": 1561.0023,
+      "pct_to_aum": 0.0047,
+      "industry": "Electrical Equipment"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE331A01037",
+      "report_date": "2025-07-31",
+      "quantity": 183775,
+      "market_value_lakhs": 1518.0734,
+      "pct_to_aum": 0.0046,
+      "industry": "Cement & Cement Products"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE317I01021",
+      "report_date": "2025-07-31",
+      "quantity": 110047,
+      "market_value_lakhs": 1487.6704,
+      "pct_to_aum": 0.0045,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE274F01020",
+      "report_date": "2025-07-31",
+      "quantity": 179091,
+      "market_value_lakhs": 1484.1271,
+      "pct_to_aum": 0.0045,
+      "industry": "Leisure Services"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE955D01029",
+      "report_date": "2025-07-31",
+      "quantity": 359591,
+      "market_value_lakhs": 1362.1307,
+      "pct_to_aum": 0.0041,
+      "industry": "Electrical Equipment"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE429E01023",
+      "report_date": "2025-07-31",
+      "quantity": 63467,
+      "market_value_lakhs": 1314.4016,
+      "pct_to_aum": 0.004,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE410B01037",
+      "report_date": "2025-07-31",
+      "quantity": 47527,
+      "market_value_lakhs": 1048.612,
+      "pct_to_aum": 0.0032,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE020B01018",
+      "report_date": "2025-07-31",
+      "quantity": 140933,
+      "market_value_lakhs": 907.9609,
+      "pct_to_aum": 0.0027,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE343H01029",
+      "report_date": "2025-07-31",
+      "quantity": 5473,
+      "market_value_lakhs": 590.1755,
+      "pct_to_aum": 0.0018,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFFLX",
+      "isin": "INE263A01024",
+      "report_date": "2025-07-31",
+      "quantity": 170967,
+      "market_value_lakhs": 540.3412,
+      "pct_to_aum": 0.0016,
+      "industry": "Aerospace & Defense"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE040A01034",
+      "report_date": "2025-07-31",
+      "quantity": 330253,
+      "market_value_lakhs": 5336.0628,
+      "pct_to_aum": 0.0417,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE090A01021",
+      "report_date": "2025-07-31",
+      "quantity": 362432,
+      "market_value_lakhs": 4403.1864,
+      "pct_to_aum": 0.0344,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE002A01018",
+      "report_date": "2025-07-31",
+      "quantity": 139647,
+      "market_value_lakhs": 4204.5617,
+      "pct_to_aum": 0.0328,
+      "industry": "Petroleum Products"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE467B01029",
+      "report_date": "2025-07-31",
+      "quantity": 86947,
+      "market_value_lakhs": 3812.9303,
+      "pct_to_aum": 0.0298,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE030A01027",
+      "report_date": "2025-07-31",
+      "quantity": 135487,
+      "market_value_lakhs": 3665.804,
+      "pct_to_aum": 0.0286,
+      "industry": "Diversified FMCG"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE062A01020",
+      "report_date": "2025-07-31",
+      "quantity": 366575,
+      "market_value_lakhs": 3198.0003,
+      "pct_to_aum": 0.025,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE397D01024",
+      "report_date": "2025-07-31",
+      "quantity": 206900,
+      "market_value_lakhs": 3086.017,
+      "pct_to_aum": 0.0241,
+      "industry": "Telecom - Services"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE154A01025",
+      "report_date": "2025-07-31",
+      "quantity": 595890,
+      "market_value_lakhs": 2951.7411,
+      "pct_to_aum": 0.023,
+      "industry": "Diversified FMCG"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE288B01029",
+      "report_date": "2025-07-31",
+      "quantity": 92239,
+      "market_value_lakhs": 2852.3066,
+      "pct_to_aum": 0.0223,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE121J01017",
+      "report_date": "2025-07-31",
+      "quantity": 642260,
+      "market_value_lakhs": 2781.9492,
+      "pct_to_aum": 0.0217,
+      "industry": "Telecom - Services"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE361B01024",
+      "report_date": "2025-07-31",
+      "quantity": 54825,
+      "market_value_lakhs": 2699.1444,
+      "pct_to_aum": 0.0211,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE192A01025",
+      "report_date": "2025-07-31",
+      "quantity": 225647,
+      "market_value_lakhs": 2682.83,
+      "pct_to_aum": 0.0209,
+      "industry": "Agricultural Food & other Products"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE405E01023",
+      "report_date": "2025-07-31",
+      "quantity": 254790,
+      "market_value_lakhs": 2652.3639,
+      "pct_to_aum": 0.0207,
+      "industry": "Auto Components"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE548C01032",
+      "report_date": "2025-07-31",
+      "quantity": 312930,
+      "market_value_lakhs": 2556.4816,
+      "pct_to_aum": 0.02,
+      "industry": "Personal Products"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE481G01011",
+      "report_date": "2025-07-31",
+      "quantity": 21367,
+      "market_value_lakhs": 2539.938,
+      "pct_to_aum": 0.0198,
+      "industry": "Cement & Cement Products"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE044A01036",
+      "report_date": "2025-07-31",
+      "quantity": 143757,
+      "market_value_lakhs": 2471.686,
+      "pct_to_aum": 0.0193,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE226A01021",
+      "report_date": "2025-07-31",
+      "quantity": 159698,
+      "market_value_lakhs": 2455.5164,
+      "pct_to_aum": 0.0192,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE797F01020",
+      "report_date": "2025-07-31",
+      "quantity": 401729,
+      "market_value_lakhs": 2405.5533,
+      "pct_to_aum": 0.0188,
+      "industry": "Leisure Services"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE239A01024",
+      "report_date": "2025-07-31",
+      "quantity": 92404,
+      "market_value_lakhs": 2269.7657,
+      "pct_to_aum": 0.0177,
+      "industry": "Food Products"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE123W01016",
+      "report_date": "2025-07-31",
+      "quantity": 121745,
+      "market_value_lakhs": 2134.9812,
+      "pct_to_aum": 0.0167,
+      "industry": "Insurance"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE663F01024",
+      "report_date": "2025-07-31",
+      "quantity": 28359,
+      "market_value_lakhs": 1992.8578,
+      "pct_to_aum": 0.0156,
+      "industry": "Retailing"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE761H01022",
+      "report_date": "2025-07-31",
+      "quantity": 4662,
+      "market_value_lakhs": 1976.5365,
+      "pct_to_aum": 0.0154,
+      "industry": "Textiles & Apparels"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE280A01028",
+      "report_date": "2025-07-31",
+      "quantity": 55771,
+      "market_value_lakhs": 1929.091,
+      "pct_to_aum": 0.0151,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE018A01030",
+      "report_date": "2025-07-31",
+      "quantity": 50315,
+      "market_value_lakhs": 1919.5173,
+      "pct_to_aum": 0.015,
+      "industry": "Construction"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE686F01025",
+      "report_date": "2025-07-31",
+      "quantity": 93369,
+      "market_value_lakhs": 1881.3854,
+      "pct_to_aum": 0.0147,
+      "industry": "Beverages"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE787D01026",
+      "report_date": "2025-07-31",
+      "quantity": 55385,
+      "market_value_lakhs": 1840.6097,
+      "pct_to_aum": 0.0144,
+      "industry": "Auto Components"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE212H01026",
+      "report_date": "2025-07-31",
+      "quantity": 39326,
+      "market_value_lakhs": 1817.3921,
+      "pct_to_aum": 0.0142,
+      "industry": "Industrial Products"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE540L01014",
+      "report_date": "2025-07-31",
+      "quantity": 33649,
+      "market_value_lakhs": 1786.5937,
+      "pct_to_aum": 0.0139,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE935A01035",
+      "report_date": "2025-07-31",
+      "quantity": 121117,
+      "market_value_lakhs": 1778.9059,
+      "pct_to_aum": 0.0139,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE410B01037",
+      "report_date": "2025-07-31",
+      "quantity": 77608,
+      "market_value_lakhs": 1712.3041,
+      "pct_to_aum": 0.0134,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE017A01032",
+      "report_date": "2025-07-31",
+      "quantity": 120845,
+      "market_value_lakhs": 1676.9056,
+      "pct_to_aum": 0.0131,
+      "industry": "Transport Services"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE117A01022",
+      "report_date": "2025-07-31",
+      "quantity": 20736,
+      "market_value_lakhs": 1637.4908,
+      "pct_to_aum": 0.0128,
+      "industry": "Electrical Equipment"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE745G01035",
+      "report_date": "2025-07-31",
+      "quantity": 37740,
+      "market_value_lakhs": 1618.9328,
+      "pct_to_aum": 0.0126,
+      "industry": "Capital Markets"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE376G01013",
+      "report_date": "2025-07-31",
+      "quantity": 440520,
+      "market_value_lakhs": 1596.2242,
+      "pct_to_aum": 0.0125,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE003A01024",
+      "report_date": "2025-07-31",
+      "quantity": 22187,
+      "market_value_lakhs": 1582.5765,
+      "pct_to_aum": 0.0124,
+      "industry": "Electrical Equipment"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE093I01010",
+      "report_date": "2025-07-31",
+      "quantity": 82424,
+      "market_value_lakhs": 1535.0646,
+      "pct_to_aum": 0.012,
+      "industry": "Realty"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE825V01034",
+      "report_date": "2025-07-31",
+      "quantity": 133366,
+      "market_value_lakhs": 1534.4425,
+      "pct_to_aum": 0.012,
+      "industry": "Retailing"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE168P01015",
+      "report_date": "2025-07-31",
+      "quantity": 112979,
+      "market_value_lakhs": 1475.6187,
+      "pct_to_aum": 0.0115,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE176B01034",
+      "report_date": "2025-07-31",
+      "quantity": 79464,
+      "market_value_lakhs": 1469.9648,
+      "pct_to_aum": 0.0115,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE342J01019",
+      "report_date": "2025-07-31",
+      "quantity": 8972,
+      "market_value_lakhs": 1420.4829,
+      "pct_to_aum": 0.0111,
+      "industry": "Auto Components"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE603J01030",
+      "report_date": "2025-07-31",
+      "quantity": 31840,
+      "market_value_lakhs": 1410.7508,
+      "pct_to_aum": 0.011,
+      "industry": "Fertilizers & Agrochemicals"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE053A01029",
+      "report_date": "2025-07-31",
+      "quantity": 213122,
+      "market_value_lakhs": 1368.3498,
+      "pct_to_aum": 0.0107,
+      "industry": "Leisure Services"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE849A01020",
+      "report_date": "2025-07-31",
+      "quantity": 23297,
+      "market_value_lakhs": 1360.3118,
+      "pct_to_aum": 0.0106,
+      "industry": "Retailing"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE325A01013",
+      "report_date": "2025-07-31",
+      "quantity": 31603,
+      "market_value_lakhs": 1348.8002,
+      "pct_to_aum": 0.0105,
+      "industry": "Industrial Products"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE151A01013",
+      "report_date": "2025-07-31",
+      "quantity": 67319,
+      "market_value_lakhs": 1340.153,
+      "pct_to_aum": 0.0105,
+      "industry": "Telecom - Services"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE765G01017",
+      "report_date": "2025-07-31",
+      "quantity": 64264,
+      "market_value_lakhs": 1290.2926,
+      "pct_to_aum": 0.0101,
+      "industry": "Insurance"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE058A01010",
+      "report_date": "2025-07-31",
+      "quantity": 19340,
+      "market_value_lakhs": 1278.2193,
+      "pct_to_aum": 0.01,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE171A01029",
+      "report_date": "2025-07-31",
+      "quantity": 626734,
+      "market_value_lakhs": 1262.1796,
+      "pct_to_aum": 0.0099,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE007A01025",
+      "report_date": "2025-07-31",
+      "quantity": 28502,
+      "market_value_lakhs": 1249.1287,
+      "pct_to_aum": 0.0098,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE414G01012",
+      "report_date": "2025-07-31",
+      "quantity": 63978,
+      "market_value_lakhs": 1175.9796,
+      "pct_to_aum": 0.0092,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE536A01023",
+      "report_date": "2025-07-31",
+      "quantity": 45107,
+      "market_value_lakhs": 1167.6172,
+      "pct_to_aum": 0.0091,
+      "industry": "Industrial Products"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE671A01010",
+      "report_date": "2025-07-31",
+      "quantity": 2117,
+      "market_value_lakhs": 1152.8536,
+      "pct_to_aum": 0.009,
+      "industry": "Industrial Manufacturing"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE473A01011",
+      "report_date": "2025-07-31",
+      "quantity": 13899,
+      "market_value_lakhs": 1134.4433,
+      "pct_to_aum": 0.0089,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE211B01039",
+      "report_date": "2025-07-31",
+      "quantity": 30984,
+      "market_value_lakhs": 1114.5564,
+      "pct_to_aum": 0.0087,
+      "industry": "Realty"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE358A01014",
+      "report_date": "2025-07-31",
+      "quantity": 3789,
+      "market_value_lakhs": 1075.5114,
+      "pct_to_aum": 0.0084,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE191H01014",
+      "report_date": "2025-07-31",
+      "quantity": 59402,
+      "market_value_lakhs": 891.1785,
+      "pct_to_aum": 0.007,
+      "industry": "Entertainment"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE880J01026",
+      "report_date": "2025-07-31",
+      "quantity": 249252,
+      "market_value_lakhs": 844.8397,
+      "pct_to_aum": 0.0066,
+      "industry": "Transport Infrastructure"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE0FS801015",
+      "report_date": "2025-07-31",
+      "quantity": 1104815,
+      "market_value_lakhs": 816.0164,
+      "pct_to_aum": 0.0064,
+      "industry": "Auto Components"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE331A01037",
+      "report_date": "2025-07-31",
+      "quantity": 92615,
+      "market_value_lakhs": 765.0462,
+      "pct_to_aum": 0.006,
+      "industry": "Cement & Cement Products"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE0NHL23019",
+      "report_date": "2025-07-31",
+      "quantity": 329200,
+      "market_value_lakhs": 351.1576,
+      "pct_to_aum": 0.0027,
+      "industry": "Construction"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE839M01018",
+      "report_date": "2025-07-31",
+      "quantity": 40575,
+      "market_value_lakhs": 325.8781,
+      "pct_to_aum": 0.0025,
+      "industry": "Electrical Equipment"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE066F01020",
+      "report_date": "2025-07-31",
+      "quantity": 6346,
+      "market_value_lakhs": 312.4041,
+      "pct_to_aum": 0.0024,
+      "industry": "Aerospace & Defense"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE0UOS01011",
+      "report_date": "2025-07-31",
+      "quantity": 8417,
+      "market_value_lakhs": 301.667,
+      "pct_to_aum": 0.0024,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE019A01038",
+      "report_date": "2025-07-31",
+      "quantity": 27412,
+      "market_value_lakhs": 254.4519,
+      "pct_to_aum": 0.002,
+      "industry": "Ferrous Metals"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE343H01029",
+      "report_date": "2025-07-31",
+      "quantity": 2255,
+      "market_value_lakhs": 243.1657,
+      "pct_to_aum": 0.0019,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFLMC",
+      "isin": "INE192A20017",
+      "report_date": "2025-07-31",
+      "quantity": 8678,
+      "market_value_lakhs": 32.191,
+      "pct_to_aum": 0.0003,
+      "industry": "Agricultural Food & other Products"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE040A01034",
+      "report_date": "2025-07-31",
+      "quantity": 224407,
+      "market_value_lakhs": 3625.8561,
+      "pct_to_aum": 0.0368,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE158A01026",
+      "report_date": "2025-07-31",
+      "quantity": 57282,
+      "market_value_lakhs": 3143.8939,
+      "pct_to_aum": 0.0319,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE009A01021",
+      "report_date": "2025-07-31",
+      "quantity": 165517,
+      "market_value_lakhs": 3092.2714,
+      "pct_to_aum": 0.0314,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE522F01014",
+      "report_date": "2025-07-31",
+      "quantity": 568713,
+      "market_value_lakhs": 2969.8193,
+      "pct_to_aum": 0.0302,
+      "industry": "Consumable Fuels"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE030A01027",
+      "report_date": "2025-07-31",
+      "quantity": 106004,
+      "market_value_lakhs": 2868.0972,
+      "pct_to_aum": 0.0291,
+      "industry": "Diversified FMCG"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE121J01017",
+      "report_date": "2025-07-31",
+      "quantity": 656646,
+      "market_value_lakhs": 2844.2621,
+      "pct_to_aum": 0.0289,
+      "industry": "Telecom - Services"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE467B01029",
+      "report_date": "2025-07-31",
+      "quantity": 62989,
+      "market_value_lakhs": 2762.2881,
+      "pct_to_aum": 0.0281,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE196A01026",
+      "report_date": "2025-07-31",
+      "quantity": 399425,
+      "market_value_lakhs": 2692.5239,
+      "pct_to_aum": 0.0274,
+      "industry": "Agricultural Food & other Products"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE154A01025",
+      "report_date": "2025-07-31",
+      "quantity": 543093,
+      "market_value_lakhs": 2690.2112,
+      "pct_to_aum": 0.0273,
+      "industry": "Diversified FMCG"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE062A01020",
+      "report_date": "2025-07-31",
+      "quantity": 229037,
+      "market_value_lakhs": 1998.1188,
+      "pct_to_aum": 0.0203,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE216A01030",
+      "report_date": "2025-07-31",
+      "quantity": 33589,
+      "market_value_lakhs": 1942.9389,
+      "pct_to_aum": 0.0197,
+      "industry": "Food Products"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE280A01028",
+      "report_date": "2025-07-31",
+      "quantity": 56095,
+      "market_value_lakhs": 1940.298,
+      "pct_to_aum": 0.0197,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE466L01038",
+      "report_date": "2025-07-31",
+      "quantity": 156616,
+      "market_value_lakhs": 1773.363,
+      "pct_to_aum": 0.018,
+      "industry": "Capital Markets"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE548C01032",
+      "report_date": "2025-07-31",
+      "quantity": 208530,
+      "market_value_lakhs": 1703.5858,
+      "pct_to_aum": 0.0173,
+      "industry": "Personal Products"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE017A01032",
+      "report_date": "2025-07-31",
+      "quantity": 122213,
+      "market_value_lakhs": 1695.8887,
+      "pct_to_aum": 0.0172,
+      "industry": "Transport Services"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE414G01012",
+      "report_date": "2025-07-31",
+      "quantity": 90679,
+      "market_value_lakhs": 1666.7707,
+      "pct_to_aum": 0.0169,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE462A01022",
+      "report_date": "2025-07-31",
+      "quantity": 23711,
+      "market_value_lakhs": 1649.4557,
+      "pct_to_aum": 0.0168,
+      "industry": "Fertilizers & Agrochemicals"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE733E01010",
+      "report_date": "2025-07-31",
+      "quantity": 378805,
+      "market_value_lakhs": 1575.8288,
+      "pct_to_aum": 0.016,
+      "industry": "Power"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE007A01025",
+      "report_date": "2025-07-31",
+      "quantity": 32250,
+      "market_value_lakhs": 1413.3885,
+      "pct_to_aum": 0.0144,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE510A01028",
+      "report_date": "2025-07-31",
+      "quantity": 521197,
+      "market_value_lakhs": 1365.7967,
+      "pct_to_aum": 0.0139,
+      "industry": "Construction"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE172A01027",
+      "report_date": "2025-07-31",
+      "quantity": 515998,
+      "market_value_lakhs": 1352.6372,
+      "pct_to_aum": 0.0137,
+      "industry": "Petroleum Products"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE0FS801015",
+      "report_date": "2025-07-31",
+      "quantity": 1694600,
+      "market_value_lakhs": 1251.6316,
+      "pct_to_aum": 0.0127,
+      "industry": "Auto Components"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE848E01016",
+      "report_date": "2025-07-31",
+      "quantity": 1168444,
+      "market_value_lakhs": 1227.3336,
+      "pct_to_aum": 0.0125,
+      "industry": "Power"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE208A01029",
+      "report_date": "2025-07-31",
+      "quantity": 432391,
+      "market_value_lakhs": 1111.634,
+      "pct_to_aum": 0.0113,
+      "industry": "Agricultural, Commercial & Construction Vehicles"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE596I01012",
+      "report_date": "2025-07-31",
+      "quantity": 23285,
+      "market_value_lakhs": 1055.7885,
+      "pct_to_aum": 0.0107,
+      "industry": "Capital Markets"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE129A01019",
+      "report_date": "2025-07-31",
+      "quantity": 420918,
+      "market_value_lakhs": 1014.2861,
+      "pct_to_aum": 0.0103,
+      "industry": "Gas"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE562A01011",
+      "report_date": "2025-07-31",
+      "quantity": 163698,
+      "market_value_lakhs": 996.5934,
+      "pct_to_aum": 0.0101,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE752E01010",
+      "report_date": "2025-07-31",
+      "quantity": 284966,
+      "market_value_lakhs": 992.2516,
+      "pct_to_aum": 0.0101,
+      "industry": "Power"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE669C01036",
+      "report_date": "2025-07-31",
+      "quantity": 63559,
+      "market_value_lakhs": 987.9611,
+      "pct_to_aum": 0.01,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE092A01019",
+      "report_date": "2025-07-31",
+      "quantity": 87873,
+      "market_value_lakhs": 983.87,
+      "pct_to_aum": 0.01,
+      "industry": "Chemicals & Petrochemicals"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE322A01010",
+      "report_date": "2025-07-31",
+      "quantity": 12066,
+      "market_value_lakhs": 944.1283,
+      "pct_to_aum": 0.0096,
+      "industry": "Personal Products"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE168P01015",
+      "report_date": "2025-07-31",
+      "quantity": 71942,
+      "market_value_lakhs": 939.6345,
+      "pct_to_aum": 0.0095,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE020B01018",
+      "report_date": "2025-07-31",
+      "quantity": 136054,
+      "market_value_lakhs": 876.5279,
+      "pct_to_aum": 0.0089,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE058A01010",
+      "report_date": "2025-07-31",
+      "quantity": 13087,
+      "market_value_lakhs": 864.946,
+      "pct_to_aum": 0.0088,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE028A01039",
+      "report_date": "2025-07-31",
+      "quantity": 291608,
+      "market_value_lakhs": 739.6637,
+      "pct_to_aum": 0.0075,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE029A01011",
+      "report_date": "2025-07-31",
+      "quantity": 154050,
+      "market_value_lakhs": 539.252,
+      "pct_to_aum": 0.0055,
+      "industry": "Petroleum Products"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE0UOS01011",
+      "report_date": "2025-07-31",
+      "quantity": 13087,
+      "market_value_lakhs": 469.0407,
+      "pct_to_aum": 0.0048,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE133A01011",
+      "report_date": "2025-07-31",
+      "quantity": 14845,
+      "market_value_lakhs": 441.7649,
+      "pct_to_aum": 0.0045,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "BFMAF",
+      "isin": "INE274J01014",
+      "report_date": "2025-07-31",
+      "quantity": 18529,
+      "market_value_lakhs": 107.0142,
+      "pct_to_aum": 0.0011,
+      "industry": "Oil"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE040A01034",
+      "report_date": "2025-07-31",
+      "quantity": 108954,
+      "market_value_lakhs": 1760.4243,
+      "pct_to_aum": 0.1103,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE002A01018",
+      "report_date": "2025-07-31",
+      "quantity": 48948,
+      "market_value_lakhs": 1473.7509,
+      "pct_to_aum": 0.0923,
+      "industry": "Petroleum Products"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE090A01021",
+      "report_date": "2025-07-31",
+      "quantity": 101832,
+      "market_value_lakhs": 1237.157,
+      "pct_to_aum": 0.0775,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE009A01021",
+      "report_date": "2025-07-31",
+      "quantity": 52247,
+      "market_value_lakhs": 976.1046,
+      "pct_to_aum": 0.0612,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE154A01025",
+      "report_date": "2025-07-31",
+      "quantity": 133580,
+      "market_value_lakhs": 661.6885,
+      "pct_to_aum": 0.0415,
+      "industry": "Diversified FMCG"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE018A01030",
+      "report_date": "2025-07-31",
+      "quantity": 17024,
+      "market_value_lakhs": 649.4656,
+      "pct_to_aum": 0.0407,
+      "industry": "Construction"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE467B01029",
+      "report_date": "2025-07-31",
+      "quantity": 14622,
+      "market_value_lakhs": 641.2259,
+      "pct_to_aum": 0.0402,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE397D01024",
+      "report_date": "2025-07-31",
+      "quantity": 38757,
+      "market_value_lakhs": 578.08,
+      "pct_to_aum": 0.0362,
+      "industry": "Telecom - Services"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE062A01020",
+      "report_date": "2025-07-31",
+      "quantity": 55554,
+      "market_value_lakhs": 484.6531,
+      "pct_to_aum": 0.0304,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE238A01034",
+      "report_date": "2025-07-31",
+      "quantity": 41187,
+      "market_value_lakhs": 480.2816,
+      "pct_to_aum": 0.0301,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE101A01026",
+      "report_date": "2025-07-31",
+      "quantity": 14106,
+      "market_value_lakhs": 410.1743,
+      "pct_to_aum": 0.0257,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE237A01028",
+      "report_date": "2025-07-31",
+      "quantity": 21353,
+      "market_value_lakhs": 386.0409,
+      "pct_to_aum": 0.0242,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE030A01027",
+      "report_date": "2025-07-31",
+      "quantity": 12965,
+      "market_value_lakhs": 350.7875,
+      "pct_to_aum": 0.022,
+      "industry": "Diversified FMCG"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE155A01022",
+      "report_date": "2025-07-31",
+      "quantity": 25550,
+      "market_value_lakhs": 295.5241,
+      "pct_to_aum": 0.0185,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE733E01010",
+      "report_date": "2025-07-31",
+      "quantity": 68778,
+      "market_value_lakhs": 286.1165,
+      "pct_to_aum": 0.0179,
+      "industry": "Power"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE044A01036",
+      "report_date": "2025-07-31",
+      "quantity": 15636,
+      "market_value_lakhs": 268.8376,
+      "pct_to_aum": 0.0168,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE296A01024",
+      "report_date": "2025-07-31",
+      "quantity": 3948,
+      "market_value_lakhs": 268.7384,
+      "pct_to_aum": 0.0168,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE860A01027",
+      "report_date": "2025-07-31",
+      "quantity": 15376,
+      "market_value_lakhs": 252.5662,
+      "pct_to_aum": 0.0158,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE585B01010",
+      "report_date": "2025-07-31",
+      "quantity": 1907,
+      "market_value_lakhs": 250.1183,
+      "pct_to_aum": 0.0157,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE752E01010",
+      "report_date": "2025-07-31",
+      "quantity": 65979,
+      "market_value_lakhs": 229.7389,
+      "pct_to_aum": 0.0144,
+      "industry": "Power"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE280A01028",
+      "report_date": "2025-07-31",
+      "quantity": 6097,
+      "market_value_lakhs": 210.8922,
+      "pct_to_aum": 0.0132,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE021A01026",
+      "report_date": "2025-07-31",
+      "quantity": 6603,
+      "market_value_lakhs": 203.6662,
+      "pct_to_aum": 0.0128,
+      "industry": "Consumer Durables"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE081A01020",
+      "report_date": "2025-07-31",
+      "quantity": 119248,
+      "market_value_lakhs": 197.1527,
+      "pct_to_aum": 0.0124,
+      "industry": "Ferrous Metals"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE481G01011",
+      "report_date": "2025-07-31",
+      "quantity": 1653,
+      "market_value_lakhs": 196.4954,
+      "pct_to_aum": 0.0123,
+      "industry": "Cement & Cement Products"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE213A01029",
+      "report_date": "2025-07-31",
+      "quantity": 56523,
+      "market_value_lakhs": 188.8999,
+      "pct_to_aum": 0.0118,
+      "industry": "Oil"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE522F01014",
+      "report_date": "2025-07-31",
+      "quantity": 33051,
+      "market_value_lakhs": 172.5923,
+      "pct_to_aum": 0.0108,
+      "industry": "Consumable Fuels"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE742F01042",
+      "report_date": "2025-07-31",
+      "quantity": 10675,
+      "market_value_lakhs": 167.5868,
+      "pct_to_aum": 0.0105,
+      "industry": "Transport Infrastructure"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE047A01021",
+      "report_date": "2025-07-31",
+      "quantity": 5456,
+      "market_value_lakhs": 151.4995,
+      "pct_to_aum": 0.0095,
+      "industry": "Cement & Cement Products"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE917I01010",
+      "report_date": "2025-07-31",
+      "quantity": 1531,
+      "market_value_lakhs": 147.9589,
+      "pct_to_aum": 0.0093,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE669C01036",
+      "report_date": "2025-07-31",
+      "quantity": 9274,
+      "market_value_lakhs": 144.1551,
+      "pct_to_aum": 0.009,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE038A01020",
+      "report_date": "2025-07-31",
+      "quantity": 21225,
+      "market_value_lakhs": 142.1226,
+      "pct_to_aum": 0.0089,
+      "industry": "Non - Ferrous Metals"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE095A01012",
+      "report_date": "2025-07-31",
+      "quantity": 9655,
+      "market_value_lakhs": 137.8541,
+      "pct_to_aum": 0.0086,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE918I01026",
+      "report_date": "2025-07-31",
+      "quantity": 7881,
+      "market_value_lakhs": 130.1665,
+      "pct_to_aum": 0.0082,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE019A01038",
+      "report_date": "2025-07-31",
+      "quantity": 13854,
+      "market_value_lakhs": 128.5998,
+      "pct_to_aum": 0.0081,
+      "industry": "Ferrous Metals"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE239A01024",
+      "report_date": "2025-07-31",
+      "quantity": 5208,
+      "market_value_lakhs": 127.9267,
+      "pct_to_aum": 0.008,
+      "industry": "Food Products"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE423A01024",
+      "report_date": "2025-07-31",
+      "quantity": 3930,
+      "market_value_lakhs": 124.5574,
+      "pct_to_aum": 0.0078,
+      "industry": "Metals & Minerals Trading"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE721A01013",
+      "report_date": "2025-07-31",
+      "quantity": 4065,
+      "market_value_lakhs": 119.1838,
+      "pct_to_aum": 0.0075,
+      "industry": "Finance"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE059A01026",
+      "report_date": "2025-07-31",
+      "quantity": 7627,
+      "market_value_lakhs": 117.7838,
+      "pct_to_aum": 0.0074,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE123W01016",
+      "report_date": "2025-07-31",
+      "quantity": 6604,
+      "market_value_lakhs": 115.811,
+      "pct_to_aum": 0.0073,
+      "industry": "Insurance"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE089A01023",
+      "report_date": "2025-07-31",
+      "quantity": 1660,
+      "market_value_lakhs": 112.0583,
+      "pct_to_aum": 0.007,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE192A01025",
+      "report_date": "2025-07-31",
+      "quantity": 9257,
+      "market_value_lakhs": 110.0611,
+      "pct_to_aum": 0.0069,
+      "industry": "Agricultural Food & other Products"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE795G01014",
+      "report_date": "2025-07-31",
+      "quantity": 15293,
+      "market_value_lakhs": 109.4214,
+      "pct_to_aum": 0.0069,
+      "industry": "Insurance"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE075A01022",
+      "report_date": "2025-07-31",
+      "quantity": 20463,
+      "market_value_lakhs": 106.8169,
+      "pct_to_aum": 0.0067,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE029A01011",
+      "report_date": "2025-07-31",
+      "quantity": 28333,
+      "market_value_lakhs": 99.1797,
+      "pct_to_aum": 0.0062,
+      "industry": "Petroleum Products"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE158A01026",
+      "report_date": "2025-07-31",
+      "quantity": 1787,
+      "market_value_lakhs": 98.0786,
+      "pct_to_aum": 0.0061,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE216A01030",
+      "report_date": "2025-07-31",
+      "quantity": 1656,
+      "market_value_lakhs": 95.7905,
+      "pct_to_aum": 0.006,
+      "industry": "Food Products"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE066A01021",
+      "report_date": "2025-07-31",
+      "quantity": 1914,
+      "market_value_lakhs": 94.9861,
+      "pct_to_aum": 0.006,
+      "industry": "Automobiles"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE437A01024",
+      "report_date": "2025-07-31",
+      "quantity": 1403,
+      "market_value_lakhs": 92.8127,
+      "pct_to_aum": 0.0058,
+      "industry": "Healthcare Services"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE361B01024",
+      "report_date": "2025-07-31",
+      "quantity": 1785,
+      "market_value_lakhs": 87.8791,
+      "pct_to_aum": 0.0055,
+      "industry": "Pharmaceuticals & Biotechnology"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE214T01019",
+      "report_date": "2025-07-31",
+      "quantity": 1272,
+      "market_value_lakhs": 71.9717,
+      "pct_to_aum": 0.0045,
+      "industry": "IT - Software"
+    },
+    {
+      "scheme_short_code": "N50ETF",
+      "isin": "INE192A20017",
+      "report_date": "2025-07-31",
+      "quantity": 135,
+      "market_value_lakhs": 0.5008,
+      "pct_to_aum": null,
+      "industry": "Agricultural Food & other Products"
+    },
+    {
+      "scheme_short_code": "NBANKETF",
+      "isin": "INE040A01034",
+      "report_date": "2025-07-31",
+      "quantity": 399613,
+      "market_value_lakhs": 6456.747,
+      "pct_to_aum": 0.275,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "NBANKETF",
+      "isin": "INE090A01021",
+      "report_date": "2025-07-31",
+      "quantity": 463618,
+      "market_value_lakhs": 5632.4951,
+      "pct_to_aum": 0.2399,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "NBANKETF",
+      "isin": "INE062A01020",
+      "report_date": "2025-07-31",
+      "quantity": 282773,
+      "market_value_lakhs": 2466.9117,
+      "pct_to_aum": 0.1051,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "NBANKETF",
+      "isin": "INE237A01028",
+      "report_date": "2025-07-31",
+      "quantity": 133658,
+      "market_value_lakhs": 2416.403,
+      "pct_to_aum": 0.1029,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "NBANKETF",
+      "isin": "INE238A01034",
+      "report_date": "2025-07-31",
+      "quantity": 187318,
+      "market_value_lakhs": 2184.3152,
+      "pct_to_aum": 0.093,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "NBANKETF",
+      "isin": "INE095A01012",
+      "report_date": "2025-07-31",
+      "quantity": 89468,
+      "market_value_lakhs": 1277.4241,
+      "pct_to_aum": 0.0544,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "NBANKETF",
+      "isin": "INE171A01029",
+      "report_date": "2025-07-31",
+      "quantity": 321017,
+      "market_value_lakhs": 646.4961,
+      "pct_to_aum": 0.0275,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "NBANKETF",
+      "isin": "INE028A01039",
+      "report_date": "2025-07-31",
+      "quantity": 251637,
+      "market_value_lakhs": 638.2773,
+      "pct_to_aum": 0.0272,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "NBANKETF",
+      "isin": "INE160A01022",
+      "report_date": "2025-07-31",
+      "quantity": 401844,
+      "market_value_lakhs": 498.0856,
+      "pct_to_aum": 0.0212,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "NBANKETF",
+      "isin": "INE949L01017",
+      "report_date": "2025-07-31",
+      "quantity": 75315,
+      "market_value_lakhs": 486.5726,
+      "pct_to_aum": 0.0207,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "NBANKETF",
+      "isin": "INE092T01019",
+      "report_date": "2025-07-31",
+      "quantity": 606461,
+      "market_value_lakhs": 460.8497,
+      "pct_to_aum": 0.0196,
+      "industry": "Banks"
+    },
+    {
+      "scheme_short_code": "NBANKETF",
+      "isin": "INE545U01014",
+      "report_date": "2025-07-31",
+      "quantity": 111051,
+      "market_value_lakhs": 242.18,
+      "pct_to_aum": 0.0103,
+      "industry": "Banks"
+    }
+  ]
+}
