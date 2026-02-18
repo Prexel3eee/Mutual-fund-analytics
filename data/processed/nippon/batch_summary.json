@@ -1,0 +1,96 @@
+{
+  "batch_date": "2026-02-17T17:14:35.404364",
+  "input_directory": "NipponIndia\\2025",
+  "files_processed": 12,
+  "success_count": 9,
+  "error_count": 3,
+  "results": [
+    {
+      "file": "April.xlsx",
+      "status": "success",
+      "output": "data\\processed\\nippon\\nippon_equity_holdings_202504.json",
+      "schemes": 53,
+      "securities": 633,
+      "holdings": 3502
+    },
+    {
+      "file": "August.xlsx",
+      "status": "success",
+      "output": "data\\processed\\nippon\\nippon_equity_holdings_202508.json",
+      "schemes": 60,
+      "securities": 641,
+      "holdings": 3890
+    },
+    {
+      "file": "December.xlsx",
+      "status": "success",
+      "output": "data\\processed\\nippon\\nippon_equity_holdings_202512.json",
+      "schemes": 60,
+      "securities": 657,
+      "holdings": 3940
+    },
+    {
+      "file": "February.xlsx",
+      "status": "error",
+      "error": "'Worksheet Index does not exist.'"
+    },
+    {
+      "file": "January.xlsx",
+      "status": "error",
+      "error": "'Worksheet Index does not exist.'"
+    },
+    {
+      "file": "July.xlsx",
+      "status": "error",
+      "error": "'Worksheet Index does not exist.'"
+    },
+    {
+      "file": "June.xlsx",
+      "status": "success",
+      "output": "data\\processed\\nippon\\nippon_equity_holdings_202506.json",
+      "schemes": 57,
+      "securities": 638,
+      "holdings": 3690
+    },
+    {
+      "file": "March.xlsx",
+      "status": "success",
+      "output": "data\\processed\\nippon\\nippon_equity_holdings_202503.json",
+      "schemes": 53,
+      "securities": 638,
+      "holdings": 3468
+    },
+    {
+      "file": "May.xlsx",
+      "status": "success",
+      "output": "data\\processed\\nippon\\nippon_equity_holdings_202505.json",
+      "schemes": 55,
+      "securities": 639,
+      "holdings": 3635
+    },
+    {
+      "file": "November.xlsx",
+      "status": "success",
+      "output": "data\\processed\\nippon\\nippon_equity_holdings_202511.json",
+      "schemes": 60,
+      "securities": 656,
+      "holdings": 3903
+    },
+    {
+      "file": "October.xlsx",
+      "status": "success",
+      "output": "data\\processed\\nippon\\nippon_equity_holdings_202510.json",
+      "schemes": 60,
+      "securities": 655,
+      "holdings": 3928
+    },
+    {
+      "file": "September.xlsx",
+      "status": "success",
+      "output": "data\\processed\\nippon\\nippon_equity_holdings_202509.json",
+      "schemes": 60,
+      "securities": 646,
+      "holdings": 3873
+    }
+  ]
+}

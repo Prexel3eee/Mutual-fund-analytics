@@ -1,0 +1,105 @@
+{
+  "batch_date": "2026-02-17T19:38:13.901127",
+  "input_directory": "Axis-Mutual-Fund\\2025",
+  "files_processed": 12,
+  "success_count": 12,
+  "error_count": 0,
+  "results": [
+    {
+      "file": "April.xlsx",
+      "status": "success",
+      "output": "data\\processed\\axis\\axis_equity_holdings_202504.json",
+      "schemes": 46,
+      "securities": 565,
+      "holdings": 3139
+    },
+    {
+      "file": "August.xlsx",
+      "status": "success",
+      "output": "data\\processed\\axis\\axis_equity_holdings_202508.json",
+      "schemes": 47,
+      "securities": 571,
+      "holdings": 3222
+    },
+    {
+      "file": "December.xlsx",
+      "status": "success",
+      "output": "data\\processed\\axis\\axis_equity_holdings_202512.json",
+      "schemes": 48,
+      "securities": 589,
+      "holdings": 3344
+    },
+    {
+      "file": "February.xlsx",
+      "status": "success",
+      "output": "data\\processed\\axis\\axis_equity_holdings_202502.json",
+      "schemes": 45,
+      "securities": 565,
+      "holdings": 3085
+    },
+    {
+      "file": "January.xlsx",
+      "status": "success",
+      "output": "data\\processed\\axis\\axis_equity_holdings_202501.json",
+      "schemes": 44,
+      "securities": 563,
+      "holdings": 3056
+    },
+    {
+      "file": "July.xlsx",
+      "status": "success",
+      "output": "data\\processed\\axis\\axis_equity_holdings_202507.json",
+      "schemes": 47,
+      "securities": 574,
+      "holdings": 3226
+    },
+    {
+      "file": "June.xlsx",
+      "status": "success",
+      "output": "data\\processed\\axis\\axis_equity_holdings_202506.json",
+      "schemes": 46,
+      "securities": 564,
+      "holdings": 3190
+    },
+    {
+      "file": "March.xlsx",
+      "status": "success",
+      "output": "data\\processed\\axis\\axis_equity_holdings_202503.json",
+      "schemes": 46,
+      "securities": 564,
+      "holdings": 3136
+    },
+    {
+      "file": "May.xlsx",
+      "status": "success",
+      "output": "data\\processed\\axis\\axis_equity_holdings_202505.json",
+      "schemes": 46,
+      "securities": 567,
+      "holdings": 3155
+    },
+    {
+      "file": "November.xlsx",
+      "status": "success",
+      "output": "data\\processed\\axis\\axis_equity_holdings_202511.json",
+      "schemes": 48,
+      "securities": 582,
+      "holdings": 3333
+    },
+    {
+      "file": "October.xlsx",
+      "status": "success",
+      "output": "data\\processed\\axis\\axis_equity_holdings_202510.json",
+      "schemes": 48,
+      "securities": 581,
+      "holdings": 3348
+    },
+    {
+      "file": "September.xlsx",
+      "status": "success",
+      "output": "data\\processed\\axis\\axis_equity_holdings_202509.json",
+      "schemes": 48,
+      "securities": 573,
+      "holdings": 3277
+    }
+  ]
+}

@@ -100,41 +100,39 @@ class DatabaseLoader:
         scheme_code = fund_data["scheme_code"]
         scheme_name = fund_data["scheme_name"]
         
-        # Check if exists by scheme_code and amc_id
+        # Check if exists by amc_id and scheme_name (not by fund_id)
         self.cursor.execute(
-            "SELECT fund_id FROM fund_master WHERE amc_id = %s AND fund_id::text = %s",
-            (amc_id, scheme_code)
+            "SELECT fund_id FROM fund_master WHERE amc_id = %s AND scheme_name = %s",
+            (amc_id, scheme_name)
         )
         result = self.cursor.fetchone()
         
         if result:
             fund_id = result[0]
-            # Update scheme name if changed
-            self.cursor.execute(
-                "UPDATE fund_master SET scheme_name = %s WHERE fund_id = %s",
-                (scheme_name, fund_id)
-            )
+            log.debug(f"  Fund exists: {scheme_name} (ID: {fund_id})")
             return fund_id
         
-        # Insert new fund - use scheme_code as fund_id (integer)
+        # Insert new fund - try to use scheme_code as fund_id if numeric
         try:
             fund_id = int(scheme_code)
-        except ValueError:
-            # If scheme_code is not numeric, generate an ID
+        except (ValueError, TypeError):
+            # Generate new ID based on max existing ID
             self.cursor.execute("SELECT COALESCE(MAX(fund_id), 0) + 1 FROM fund_master")
             fund_id = self.cursor.fetchone()[0]
         
+        # Insert with ON CONFLICT to handle race conditions
         self.cursor.execute(
             """
             INSERT INTO fund_master (fund_id, amc_id, scheme_name, is_active)
             VALUES (%s, %s, %s, true)
-            ON CONFLICT (fund_id) DO UPDATE SET scheme_name = EXCLUDED.scheme_name
+            ON CONFLICT (fund_id) DO UPDATE 
+            SET scheme_name = EXCLUDED.scheme_name, amc_id = EXCLUDED.amc_id
             RETURNING fund_id
             """,
             (fund_id, amc_id, scheme_name)
         )
         fund_id = self.cursor.fetchone()[0]
-        log.debug(f"  Inserted fund: {scheme_name} (ID: {fund_id})")
+        log.debug(f"  Inserted/Updated fund: {scheme_name} (ID: {fund_id})")
         return fund_id
     
     def insert_securities(self, securities: list[dict]) -> dict[str, int]:

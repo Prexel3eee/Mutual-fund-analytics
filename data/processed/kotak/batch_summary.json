@@ -1,0 +1,105 @@
+{
+  "batch_date": "2026-02-17T18:20:24.152460",
+  "input_directory": "Kotak-Mahindra-Mutual-Fund\\2025",
+  "files_processed": 12,
+  "success_count": 12,
+  "error_count": 0,
+  "results": [
+    {
+      "file": "April.xlsx",
+      "status": "success",
+      "output": "data\\processed\\kotak\\kotak_equity_holdings_202504.json",
+      "schemes": 60,
+      "securities": 581,
+      "holdings": 3407
+    },
+    {
+      "file": "August.xlsx",
+      "status": "success",
+      "output": "data\\processed\\kotak\\kotak_equity_holdings_202508.json",
+      "schemes": 64,
+      "securities": 585,
+      "holdings": 3558
+    },
+    {
+      "file": "December.xlsx",
+      "status": "success",
+      "output": "data\\processed\\kotak\\kotak_equity_holdings_202512.json",
+      "schemes": 69,
+      "securities": 601,
+      "holdings": 3810
+    },
+    {
+      "file": "February.xlsx",
+      "status": "success",
+      "output": "data\\processed\\kotak\\kotak_equity_holdings_202502.json",
+      "schemes": 56,
+      "securities": 575,
+      "holdings": 3094
+    },
+    {
+      "file": "January.xlsx",
+      "status": "success",
+      "output": "data\\processed\\kotak\\kotak_equity_holdings_202501.json",
+      "schemes": 53,
+      "securities": 449,
+      "holdings": 2606
+    },
+    {
+      "file": "July.xlsx",
+      "status": "success",
+      "output": "data\\processed\\kotak\\kotak_equity_holdings_202507.json",
+      "schemes": 63,
+      "securities": 589,
+      "holdings": 3509
+    },
+    {
+      "file": "June.xlsx",
+      "status": "success",
+      "output": "data\\processed\\kotak\\kotak_equity_holdings_202506.json",
+      "schemes": 61,
+      "securities": 582,
+      "holdings": 3449
+    },
+    {
+      "file": "March.xlsx",
+      "status": "success",
+      "output": "data\\processed\\kotak\\kotak_equity_holdings_202503.json",
+      "schemes": 59,
+      "securities": 582,
+      "holdings": 3408
+    },
+    {
+      "file": "May.xlsx",
+      "status": "success",
+      "output": "data\\processed\\kotak\\kotak_equity_holdings_202505.json",
+      "schemes": 61,
+      "securities": 587,
+      "holdings": 3451
+    },
+    {
+      "file": "November.xlsx",
+      "status": "success",
+      "output": "data\\processed\\kotak\\kotak_equity_holdings_202511.json",
+      "schemes": 68,
+      "securities": 598,
+      "holdings": 3698
+    },
+    {
+      "file": "October.xlsx",
+      "status": "success",
+      "output": "data\\processed\\kotak\\kotak_equity_holdings_202510.json",
+      "schemes": 66,
+      "securities": 595,
+      "holdings": 3656
+    },
+    {
+      "file": "September.xlsx",
+      "status": "success",
+      "output": "data\\processed\\kotak\\kotak_equity_holdings_202509.json",
+      "schemes": 65,
+      "securities": 586,
+      "holdings": 3613
+    }
+  ]
+}
